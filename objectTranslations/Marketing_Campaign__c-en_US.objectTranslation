@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Marketing Campaign</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Budget__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Campaign_Type__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Campaign__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Campaign_Lead</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Budget_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

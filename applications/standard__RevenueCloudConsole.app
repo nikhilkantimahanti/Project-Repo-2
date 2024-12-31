@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Subscription Management</label>
+    <navType>Console</navType>
+    <tabs>standard-Product2</tabs>
+    <tabs>standard-Pricebook2</tabs>
+    <tabs>Marketing_Campaign__c</tabs>
+    <tabs>Sales_Order__c</tabs>
+    <tabs>Employee__c</tabs>
+    <tabs>Feedback__c</tabs>
+    <tabs>Item__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>RevenueCloudConsole_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>Employee__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Feedback__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Item__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Marketing_Campaign__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Sales_Order__c</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Pricebook2</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Product2</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>

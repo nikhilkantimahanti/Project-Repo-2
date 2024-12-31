@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Items</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Item_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Stock_Quantity__c</name>
+    </fields>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Product_Stock</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>StockAvailability</name>
+    </validationRules>
+</CustomObjectTranslation>
