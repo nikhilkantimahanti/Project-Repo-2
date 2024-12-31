@@ -23,8 +23,6 @@
         <members>RandomApexClass</members>
         <members>Rectangle</members>
         <members>ShapeCalculator</members>
-        <members>SupportTicketValidator</members>
-        <members>SupportTicketValidatorTest</members>
         <members>amazonCart</members>
         <name>ApexClass</name>
     </types>
@@ -2529,8 +2527,6 @@
         <members>StreamActivityAccess.IsContentShared</members>
         <members>StreamActivityAccess.Name</members>
         <members>StreamActivityAccess.OwnerId</members>
-        <members>Support_Ticket__c.Ticket_Description__c</members>
-        <members>Support_Ticket__c.Ticket_Status__c</members>
         <members>Task.ActivityDate</members>
         <members>Task.CallDisposition</members>
         <members>Task.CallDurationInSeconds</members>
@@ -2834,13 +2830,11 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Account_URL</members>
         <members>Employee_Onboarding_Message</members>
         <members>Feedback_Received</members>
         <members>Lead_Creation_Notification</members>
         <members>Low_Stock_Alert</members>
         <members>Order_Confirmation</members>
-        <members>Resolution_Required</members>
         <members>test_label</members>
         <name>CustomLabel</name>
     </types>
@@ -3094,7 +3088,6 @@
         <members>StandardShippingRate</members>
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
-        <members>Support_Ticket__c</members>
         <members>TableauHostMapping</members>
         <members>Task</members>
         <members>TimeSlot</members>
@@ -3152,7 +3145,6 @@
         <members>Marketing_Campaign__c</members>
         <members>Mobile__c</members>
         <members>Sales_Order__c</members>
-        <members>Support_Ticket__c</members>
         <members>college__c</members>
         <name>CustomTab</name>
     </types>
@@ -3567,7 +3559,6 @@
         <members>SocialPersona.AllSocialPersonas</members>
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
-        <members>Support_Ticket__c.All</members>
         <members>Task.CompletedTasks</members>
         <members>Task.DelegatedTasks</members>
         <members>Task.OpenTasks</members>
@@ -3729,7 +3720,6 @@
         <members>Item__c.Product_Stock</members>
         <members>Marketing_Campaign__c.Campaign_Lead</members>
         <members>Sales_Order__c.Standard_Order</members>
-        <members>Support_Ticket__c.High_Priority</members>
         <name>RecordType</name>
     </types>
     <types>
@@ -4167,7 +4157,6 @@
         <members>Item__c.StockAvailability</members>
         <members>Marketing_Campaign__c.Budget_Required</members>
         <members>Sales_Order__c.OrderAmountValidation</members>
-        <members>Support_Ticket__c.Ticket_Description_Required</members>
         <name>ValidationRule</name>
     </types>
     <types>
