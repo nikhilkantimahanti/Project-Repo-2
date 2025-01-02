@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Employee_Onboarding_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Employee_Onboarding_Message</shortDescription>
+        <value>Welcome! Your onboarding process has been initiated.</value>
+    </labels>
+    <labels>
+        <fullName>Feedback_Received</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Feedback_Received</shortDescription>
+        <value>Thank you for your feedback!</value>
+    </labels>
+    <labels>
+        <fullName>Lead_Creation_Notification</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Lead_Creation_Notification</shortDescription>
+        <value>A new lead has been created from a marketing campaign.</value>
+    </labels>
+    <labels>
+        <fullName>Low_Stock_Alert</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Low_Stock_Alert</shortDescription>
+        <value>Warning: Stock is running low for this product.</value>
+    </labels>
+    <labels>
+        <fullName>Order_Confirmation</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Order_Confirmation</shortDescription>
+        <value>Your order has been successfully placed and is being processed.</value>
+    </labels>
+    <labels>
+        <fullName>Resolution_Required</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Resolution Required</shortDescription>
+        <value>Resolution description is required to close the ticket.</value>
+    </labels>
+    <labels>
+        <fullName>test_label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>test label</shortDescription>
+        <value>test value</value>
+    </labels>
+</CustomLabels>
