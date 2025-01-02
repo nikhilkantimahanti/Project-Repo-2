@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>61.0</version>
+    <types>
+        <members>Support_Ticket__c.Ticket_Description__c</members>
+        <members>Support_Ticket__c.Ticket_Status__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Resolution_Required</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>Support_Ticket__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Support_Ticket__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Support_Ticket__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Support_Ticket__c.High_Priority</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>Support_Ticket__c.Ticket_Description_Required</members>
+        <name>ValidationRule</name>
+    </types>
+</Package>
