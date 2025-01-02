@@ -36,6 +36,13 @@
         <value>Your order has been successfully placed and is being processed.</value>
     </labels>
     <labels>
+        <fullName>Resolution_Required</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Resolution Required</shortDescription>
+        <value>Resolution description is required to close the ticket.</value>
+    </labels>
+    <labels>
         <fullName>test_label</fullName>
         <language>en_US</language>
         <protected>true</protected>
