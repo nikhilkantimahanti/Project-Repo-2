@@ -1,31 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>61.0</version>
     <types>
+        <members>AccountContactProcessor</members>
+        <members>AccountContactProcessorTest</members>
+        <members>AccountProcessor</members>
+        <members>AccountProcessorTest</members>
+        <members>CaseProcessor</members>
+        <members>CaseProcessorTest</members>
+        <members>FeedbackAggregator</members>
+        <members>FeedbackAggregatorTest</members>
+        <members>InventoryManager</members>
+        <members>InventoryManagerTest</members>
+        <members>LeadSourceUpdater</members>
+        <members>LeadSourceUpdaterTest</members>
+        <members>LeaveRequestValidator</members>
+        <members>LeaveRequestValidatorTest</members>
+        <members>NewHireNotifier</members>
+        <members>NewHireNotifierTest</members>
+        <members>OpportunityProcessor</members>
+        <members>OpportunityProcessorTest</members>
+        <members>OrderTotalCalculator</members>
+        <members>OrderTotalCalculatorTest</members>
+        <members>TaskProcessor</members>
+        <members>TaskProcessorTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Employee__c.Department__c</members>
+        <members>Employee__c.Manager__c</members>
+        <members>Employee__c.Name__c</members>
+        <members>Employee__c.Start_Date__c</members>
+        <members>Feedback__c.Rating__c</members>
+        <members>Item__c.Item_Name__c</members>
+        <members>Item__c.Stock_Quantity__c</members>
+        <members>Leave_Request__c.LeaveType__c</members>
+        <members>Leave_Request__c.Leave_Status__c</members>
+        <members>Marketing_Campaign__c.Budget__c</members>
+        <members>Marketing_Campaign__c.Campaign_Type__c</members>
+        <members>Marketing_Campaign__c.Campaign__c</members>
+        <members>Marketing_Campaign__c.End_Date__c</members>
+        <members>Marketing_Campaign__c.Start_Date__c</members>
         <members>Support_Ticket__c.Ticket_Description__c</members>
         <members>Support_Ticket__c.Ticket_Status__c</members>
         <name>CustomField</name>
     </types>
     <types>
+        <members>Account_URL</members>
+        <members>Employee_Onboarding_Message</members>
+        <members>Feedback_Received</members>
+        <members>Lead_Creation_Notification</members>
+        <members>Low_Stock_Alert</members>
+        <members>Order_Confirmation</members>
         <members>Resolution_Required</members>
+        <members>test_label</members>
         <name>CustomLabel</name>
     </types>
     <types>
+        <members>Employee__c</members>
+        <members>Feedback__c</members>
+        <members>Item__c</members>
+        <members>Leave_Request__c</members>
+        <members>Marketing_Campaign__c</members>
         <members>Support_Ticket__c</members>
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Employee__c</members>
+        <members>Feedback__c</members>
+        <members>Item__c</members>
+        <members>Leave_Request__c</members>
+        <members>Marketing_Campaign__c</members>
         <members>Support_Ticket__c</members>
         <name>CustomTab</name>
     </types>
     <types>
+        <members>account_contact_opp</members>
+        <members>send_email_if_high</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Employee__c-Employee Layout</members>
+        <members>Feedback__c-Feedback Layout</members>
+        <members>Item__c-Item Layout</members>
+        <members>Leave_Request__c-Leave Request Layout</members>
+        <members>Marketing_Campaign__c-Marketing Campaign Layout</members>
+        <members>Support_Ticket__c-Support Ticket Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Employee__c.All</members>
+        <members>Feedback__c.All</members>
+        <members>Item__c.All</members>
+        <members>Leave_Request__c.All</members>
+        <members>Marketing_Campaign__c.All</members>
         <members>Support_Ticket__c.All</members>
         <name>ListView</name>
     </types>
     <types>
+        <members>HR Manager</members>
+        <members>Inventory Manager</members>
+        <members>Marketing Manager</members>
+        <members>Sales Representative</members>
+        <members>Support User</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Employee__c.New_Hire</members>
+        <members>Feedback__c.Service_Feedback</members>
+        <members>Item__c.Product_Stock</members>
+        <members>Leave_Request__c.Vacation_Leave</members>
+        <members>Marketing_Campaign__c.Campaign_Lead</members>
         <members>Support_Ticket__c.High_Priority</members>
         <name>RecordType</name>
     </types>
     <types>
+        <members>Employee__c.StartDateRequired</members>
+        <members>Feedback__c.RatingValidation</members>
+        <members>Item__c.StockAvailability</members>
+        <members>Leave_Request__c.Leave_Type_Required</members>
+        <members>Marketing_Campaign__c.Budget_Required</members>
         <members>Support_Ticket__c.Ticket_Description_Required</members>
         <name>ValidationRule</name>
     </types>
