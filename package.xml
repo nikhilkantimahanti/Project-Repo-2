@@ -14,8 +14,6 @@
         <members>InventoryManagerTest</members>
         <members>LeadSourceUpdater</members>
         <members>LeadSourceUpdaterTest</members>
-        <members>LeaveRequestValidator</members>
-        <members>LeaveRequestValidatorTest</members>
         <members>MySampleApexClass</members>
         <members>NewHireNotifier</members>
         <members>NewHireNotifierTest</members>
@@ -1670,8 +1668,6 @@
         <members>Lead.Title</members>
         <members>Lead.Website</members>
         <members>LeadCleanInfo.Industry</members>
-        <members>Leave_Request__c.LeaveType__c</members>
-        <members>Leave_Request__c.Leave_Status__c</members>
         <members>LegalEntity.CompanyName</members>
         <members>LegalEntity.Description</members>
         <members>LegalEntity.LegalEntityAddress</members>
@@ -2984,7 +2980,6 @@
         <members>Item__c</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
-        <members>Leave_Request__c</members>
         <members>LegalEntity</members>
         <members>Location</members>
         <members>LocationGroup</members>
@@ -3151,7 +3146,6 @@
         <members>Employee__c</members>
         <members>Feedback__c</members>
         <members>Item__c</members>
-        <members>Leave_Request__c</members>
         <members>Marketing_Campaign__c</members>
         <members>Mobile__c</members>
         <members>Sales_Order__c</members>
@@ -3511,7 +3505,6 @@
         <members>Lead.TodaysLeads</members>
         <members>Lead.ViewCustom1</members>
         <members>Lead.ViewCustom2</members>
-        <members>Leave_Request__c.All</members>
         <members>LegalEntity.mine</members>
         <members>Location.all_locations</members>
         <members>LocationGroup.LocationGroup</members>
@@ -3731,7 +3724,6 @@
         <members>Feedback__c.Service_Feedback</members>
         <members>Idea.InternalIdeasIdeaRecordType</members>
         <members>Item__c.Product_Stock</members>
-        <members>Leave_Request__c.Vacation_Leave</members>
         <members>Marketing_Campaign__c.Campaign_Lead</members>
         <members>Sales_Order__c.Standard_Order</members>
         <members>Support_Ticket__c.High_Priority</members>
@@ -4170,7 +4162,6 @@
         <members>Employee__c.StartDateRequired</members>
         <members>Feedback__c.RatingValidation</members>
         <members>Item__c.StockAvailability</members>
-        <members>Leave_Request__c.Leave_Type_Required</members>
         <members>Marketing_Campaign__c.Budget_Required</members>
         <members>Sales_Order__c.OrderAmountValidation</members>
         <members>Support_Ticket__c.Ticket_Description_Required</members>
