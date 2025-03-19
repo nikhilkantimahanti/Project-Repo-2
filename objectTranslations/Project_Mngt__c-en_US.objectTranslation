@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Project Mngt</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Project Mngts</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Manager__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Project_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

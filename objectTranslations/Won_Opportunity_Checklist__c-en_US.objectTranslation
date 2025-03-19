@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Won Opportunity Checklist</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Won Opportunity Checklists</value>
+    </caseValues>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>Close_Date_Last_Signature_Date__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>One_Time_Discount_Accting_Bin_Duration__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>Opportunity_Amount_Signed_Order__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>Product_Start_Dates_Match_Intent__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>Subs_Start_End_of_Months_Apart__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

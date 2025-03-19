@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Zoho Ticket</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Zoho Tickets</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Account_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Closed_Time__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Contact_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Created_Time__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Department_Id__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Priority__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Status_Type__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Subject__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Web_URL__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Zoho_Id__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

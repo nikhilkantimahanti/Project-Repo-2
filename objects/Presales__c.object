@@ -1,0 +1,2800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Presales_Status_Tracker_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Presales_Status_Tracker_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>Custom_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Custom_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Start_Date__c</fields>
+        <fields>End_Date__c</fields>
+        <fields>Current_Stage__c</fields>
+        <label>Custom Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>ALM_Authentication__c</fullName>
+        <label>ALM Authentication</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Product__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Basic Auth</fullName>
+                    <default>false</default>
+                    <label>Basic Auth</label>
+                </value>
+                <value>
+                    <fullName>Token-based</fullName>
+                    <default>false</default>
+                    <label>Token-based</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>Basic Auth</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>Token-based</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ALM_Hosting__c</fullName>
+        <label>ALM Hosting</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Product__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Public Access</fullName>
+                    <default>false</default>
+                    <label>Public Access</label>
+                </value>
+                <value>
+                    <fullName>Behind Firewall</fullName>
+                    <default>false</default>
+                    <label>Behind Firewall</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>Public Access</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>Behind Firewall</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ALM__c</fullName>
+        <label>ALM</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Product__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>JIRA</fullName>
+                    <default>false</default>
+                    <label>JIRA</label>
+                </value>
+                <value>
+                    <fullName>CA Agile</fullName>
+                    <default>false</default>
+                    <label>CA Agile</label>
+                </value>
+                <value>
+                    <fullName>DevOps</fullName>
+                    <default>false</default>
+                    <label>DevOps</label>
+                </value>
+                <value>
+                    <fullName>IBMRTC</fullName>
+                    <default>false</default>
+                    <label>IBMRTC</label>
+                </value>
+                <value>
+                    <fullName>VersionOne</fullName>
+                    <default>false</default>
+                    <label>VersionOne</label>
+                </value>
+                <value>
+                    <fullName>Not Applicable</fullName>
+                    <default>false</default>
+                    <label>Not Applicable</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>JIRA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>CA Agile</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>DevOps</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>IBMRTC</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>VersionOne</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>Not Applicable</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ARM_Subscriptions__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity_Name__r.Number_of_Product_Subscriptions__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ARM Subscriptions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Name__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <label>Account Name</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Presales</relationshipLabel>
+        <relationshipName>Presales</relationshipName>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AutorabitExtId__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>External Id created by AutoRABIT</description>
+        <externalId>true</externalId>
+        <label>AutorabitExtId__c</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Bypass_Validation_Rule__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Bypass Validation Rule</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CI_Tool_currently_used__c</fullName>
+        <label>CI Tool currently used</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Current_Challenges_Processes__c</fullName>
+        <inlineHelpText>Document as-is process and/or time taken for it.</inlineHelpText>
+        <label>Current Challenges/Processes</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Current_Data_Migration_Solution__c</fullName>
+        <label>Current Data Migration Solution</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Current_Deployment_Solution__c</fullName>
+        <label>Current Deployment Solution</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Current_IDE__c</fullName>
+        <label>Current IDE</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Product__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Welkin Suite</fullName>
+                    <default>false</default>
+                    <label>Welkin Suite</label>
+                </value>
+                <value>
+                    <fullName>IntelliJ</fullName>
+                    <default>false</default>
+                    <label>IntelliJ</label>
+                </value>
+                <value>
+                    <fullName>VS Code</fullName>
+                    <default>false</default>
+                    <label>VS Code</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Not Applicable</fullName>
+                    <default>false</default>
+                    <label>Not Applicable</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <valueName>Not Applicable</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <valueName>Welkin Suite</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <valueName>IntelliJ</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <valueName>VS Code</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Current_Release_Process__c</fullName>
+        <inlineHelpText>Capture branching strategy too.</inlineHelpText>
+        <label>Current Release Process</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Current_Stage__c</fullName>
+        <label>Current Stage</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Discovery Call</fullName>
+                    <default>true</default>
+                    <label>Discovery Call</label>
+                </value>
+                <value>
+                    <fullName>Demo</fullName>
+                    <default>false</default>
+                    <label>Demo</label>
+                </value>
+                <value>
+                    <fullName>Staged POC</fullName>
+                    <default>false</default>
+                    <label>Staged POC</label>
+                </value>
+                <value>
+                    <fullName>Custom POC</fullName>
+                    <default>false</default>
+                    <label>Custom POC</label>
+                </value>
+                <value>
+                    <fullName>Pilot/Implementation</fullName>
+                    <default>false</default>
+                    <label>Pilot/Implementation</label>
+                </value>
+                <value>
+                    <fullName>TAM</fullName>
+                    <default>false</default>
+                    <label>TAM</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Customer_Timezone__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Timezone</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deal_Size__c</fullName>
+        <inlineHelpText>Enter amount in USD only.</inlineHelpText>
+        <label>Deal Size</label>
+        <precision>17</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Detailed_Use_Cases__c</fullName>
+        <label>Detailed Use Cases</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <label>End Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Environments_brought_in_for_PoC__c</fullName>
+        <inlineHelpText>Capture data + attachment size of each environment.</inlineHelpText>
+        <label>Environments brought in for PoC</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Existing_data_backup_solution__c</fullName>
+        <label>Existing data backup solution</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Feature_Request_Description__c</fullName>
+        <label>Feature Request Description</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Features_deployed_to_Prod__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter numeric value.</inlineHelpText>
+        <label>#Features deployed to Prod</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Customer_Data_Protected__c</fullName>
+        <inlineHelpText>Enter the encryption platform used by customer.</inlineHelpText>
+        <label>Is Customer Data Protected</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Is_DX_used__c</fullName>
+        <label>Is DX used?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Product__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Not Applicable</fullName>
+                    <default>false</default>
+                    <label>Not Applicable</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>Yes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>No</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Issue_Description__c</fullName>
+        <label>Issue Description</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Issue_Enhancement_in__c</fullName>
+        <label>Issue/Enhancement in</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Log_a_Ticket_with__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ARM</fullName>
+                    <default>false</default>
+                    <label>ARM</label>
+                </value>
+                <value>
+                    <fullName>Vault</fullName>
+                    <default>false</default>
+                    <label>Vault</label>
+                </value>
+                <value>
+                    <fullName>IT</fullName>
+                    <default>false</default>
+                    <label>IT</label>
+                </value>
+                <value>
+                    <fullName>CodeScan</fullName>
+                    <default>false</default>
+                    <label>CodeScan</label>
+                </value>
+                <value>
+                    <fullName>Mulesoft</fullName>
+                    <default>false</default>
+                    <label>Mulesoft</label>
+                </value>
+                <value>
+                    <fullName>RBM</fullName>
+                    <default>false</default>
+                    <label>RBM</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>PMT</controllingFieldValue>
+                <controllingFieldValue>Support</controllingFieldValue>
+                <valueName>ARM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PMT</controllingFieldValue>
+                <controllingFieldValue>Support</controllingFieldValue>
+                <valueName>Vault</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PMT</controllingFieldValue>
+                <controllingFieldValue>Support</controllingFieldValue>
+                <valueName>CodeScan</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PMT</controllingFieldValue>
+                <controllingFieldValue>Support</controllingFieldValue>
+                <valueName>Mulesoft</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PMT</controllingFieldValue>
+                <controllingFieldValue>Support</controllingFieldValue>
+                <valueName>RBM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>IT Help Desk</controllingFieldValue>
+                <valueName>IT</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Label_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Label Name</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Label_Names__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(  Label_Name__c  )),   Label_Name__c  , &apos;None&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Label Names</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lines_of_Code__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter numeric value.</inlineHelpText>
+        <label>Lines of Code</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Log_a_Ticket_with__c</fullName>
+        <label>Log a Ticket with</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>IT Help Desk</fullName>
+                    <default>false</default>
+                    <label>IT Help Desk</label>
+                </value>
+                <value>
+                    <fullName>PMT</fullName>
+                    <default>false</default>
+                    <label>PMT</label>
+                </value>
+                <value>
+                    <fullName>Support</fullName>
+                    <default>false</default>
+                    <label>Support</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Managed_Packages__c</fullName>
+        <inlineHelpText>List the managed packages that the customer uses.</inlineHelpText>
+        <label>Managed Packages</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Module__c</fullName>
+        <externalId>false</externalId>
+        <label>Module</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mule_Hosting__c</fullName>
+        <label>Mule Hosting</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cloud</fullName>
+                    <default>false</default>
+                    <label>Cloud</label>
+                </value>
+                <value>
+                    <fullName>On-Premise</fullName>
+                    <default>false</default>
+                    <label>On-Premise</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Amount__c</fullName>
+        <formula>Opportunity_Name__r.Opportunity_Amount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Opportunity Name</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Presales</relationshipLabel>
+        <relationshipName>Presales_Opportunity</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Stage__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Opportunity_Name__r.StageName)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Stage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Orgs__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter numeric value.</inlineHelpText>
+        <label># Orgs</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_ALM_Authentication__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter when ALM Authentication is selected as &quot;Other&quot;.</inlineHelpText>
+        <label>Other ALM Authentication</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_IDE__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter IDE when Current IDE is selected as &quot;Other&quot;.</inlineHelpText>
+        <label>Other IDE</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_SCA__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter when the SCA is selected as &quot;Other&quot;.</inlineHelpText>
+        <label>Other SCA</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_SSO__c</fullName>
+        <description>Enter when SSO is selected as &quot;Other&quot;.</description>
+        <externalId>false</externalId>
+        <label>Other SSO</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_Storage_Environment__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter when Storage Environment is selected as &quot;Other&quot;.</inlineHelpText>
+        <label>Other Storage Environment</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_Test_Automation__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter when Test Automation is selected as &quot;Other&quot;.</inlineHelpText>
+        <label>Other Test Automation</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_VCS_Authentication__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter VCS Authentication when the VCS Authentication selected is &quot;Other&quot;.</inlineHelpText>
+        <label>Other VCS Authentication</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>POC_Type__c</fullName>
+        <label>POC Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Customer Data and Org</fullName>
+                    <default>false</default>
+                    <label>Customer Data and Org</label>
+                </value>
+                <value>
+                    <fullName>Playground</fullName>
+                    <default>false</default>
+                    <label>Playground</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Priority__c</fullName>
+        <inlineHelpText>Please select the priority of the Support (ARM/Vault) or the Enhancement request.</inlineHelpText>
+        <label>Priority</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Immediate</fullName>
+                    <default>false</default>
+                    <label>Immediate</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_Instance__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Instance</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Instance_if_any__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(  Product_Instance__c  )),  Product_Instance__c  , &apos;None&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Instance if any</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Text</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Version__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Version</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Version_if_any__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(  Product_Version__c  )),  Product_Version__c  , &apos;None&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Version if any</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product__c</fullName>
+        <inlineHelpText>Select the Product applicable.</inlineHelpText>
+        <label>Product</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>ARM</fullName>
+                    <default>false</default>
+                    <label>ARM</label>
+                </value>
+                <value>
+                    <fullName>CodeScan</fullName>
+                    <default>false</default>
+                    <label>CodeScan</label>
+                </value>
+                <value>
+                    <fullName>Mulesoft</fullName>
+                    <default>false</default>
+                    <label>Mulesoft</label>
+                </value>
+                <value>
+                    <fullName>RBM</fullName>
+                    <default>false</default>
+                    <label>RBM</label>
+                </value>
+                <value>
+                    <fullName>Vault</fullName>
+                    <default>false</default>
+                    <label>Vault</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Release_Frequency__c</fullName>
+        <label>Release Frequency</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Daily</fullName>
+                    <default>false</default>
+                    <label>Daily</label>
+                </value>
+                <value>
+                    <fullName>Weekly</fullName>
+                    <default>false</default>
+                    <label>Weekly</label>
+                </value>
+                <value>
+                    <fullName>Biweekly</fullName>
+                    <default>false</default>
+                    <label>Biweekly</label>
+                </value>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                    <label>Monthly</label>
+                </value>
+                <value>
+                    <fullName>Quarterly</fullName>
+                    <default>false</default>
+                    <label>Quarterly</label>
+                </value>
+                <value>
+                    <fullName>Semi-Annual</fullName>
+                    <default>false</default>
+                    <label>Semi-Annual</label>
+                </value>
+                <value>
+                    <fullName>Annual</fullName>
+                    <default>false</default>
+                    <label>Annual</label>
+                </value>
+                <value>
+                    <fullName>Not Applicable</fullName>
+                    <default>false</default>
+                    <label>Not Applicable</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Repositories__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter numeric value.</inlineHelpText>
+        <label># Repositories</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Review_Vault_Pre_requisites__c</fullName>
+        <defaultValue>false</defaultValue>
+        <inlineHelpText>These pre-requisites are to be communicated to users:
+• Active triggers, process builders, workflows, etc. may lead to replicate failures
+• Max uncompressed metadata size per job is 400 MB. It is recommended to set an appropriate batch size for any metadata exceeding the limit
+• Inactive owners in SF leads to replicate failures
+• Include all dependencies in the Replicate job as missing some might lead to failures
+• For a PoC, we will request access to the customer environment</inlineHelpText>
+        <label>Review Vault Pre-requisites</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SCA__c</fullName>
+        <label>SCA</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Product__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CodeScan</fullName>
+                    <default>false</default>
+                    <label>CodeScan</label>
+                </value>
+                <value>
+                    <fullName>Checkmarx</fullName>
+                    <default>false</default>
+                    <label>Checkmarx</label>
+                </value>
+                <value>
+                    <fullName>SonarQube</fullName>
+                    <default>false</default>
+                    <label>SonarQube</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Not Applicable</fullName>
+                    <default>false</default>
+                    <label>Not Applicable</label>
+                </value>
+                <value>
+                    <fullName>PMD</fullName>
+                    <default>false</default>
+                    <label>PMD</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <valueName>CodeScan</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <valueName>Checkmarx</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <valueName>SonarQube</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <valueName>Not Applicable</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <valueName>PMD</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SF_Developers__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter numeric value.</inlineHelpText>
+        <label># SF Developers</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SF_environments_to_be_scanned__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter numeric value. Include both sandboxes and orgs.</inlineHelpText>
+        <label># SF environments to be scanned</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SSO__c</fullName>
+        <label>SSO</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Product__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Okta</fullName>
+                    <default>false</default>
+                    <label>Okta</label>
+                </value>
+                <value>
+                    <fullName>PingFederate</fullName>
+                    <default>false</default>
+                    <label>PingFederate</label>
+                </value>
+                <value>
+                    <fullName>ADFS</fullName>
+                    <default>false</default>
+                    <label>ADFS</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Not Applicable</fullName>
+                    <default>false</default>
+                    <label>Not Applicable</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <valueName>Okta</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <valueName>PingFederate</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <valueName>ADFS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>Not Applicable</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Salesforce_API_Call_Limit__c</fullName>
+        <inlineHelpText>Enter the API call limit per 24 hour period.</inlineHelpText>
+        <label>Salesforce API Call Limit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Salesforce_clouds_used__c</fullName>
+        <label>Salesforce clouds used</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Sandboxes__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter numeric value.</inlineHelpText>
+        <label># Sandboxes</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Secondary_Solutions_Architect__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Secondary Solutions Architect</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Presales_Secondary_Solutions_Architect</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Size_of_Largest_Org__c</fullName>
+        <inlineHelpText>Capture size of data + attachments separately.</inlineHelpText>
+        <label>Size of Largest Org</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Solutions_Architect_Notes__c</fullName>
+        <inlineHelpText>Capture MoM for every call with customer.</inlineHelpText>
+        <label>Solutions Architect Notes</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Solutions_Architect__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Solutions Architect</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Presales_Solutions_Architect</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Source_Control__c</fullName>
+        <label>Source Control</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Product__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Azure DevOps</fullName>
+                    <default>false</default>
+                    <label>Azure DevOps</label>
+                </value>
+                <value>
+                    <fullName>Bitbucket</fullName>
+                    <default>false</default>
+                    <label>Bitbucket</label>
+                </value>
+                <value>
+                    <fullName>CodeCommit</fullName>
+                    <default>false</default>
+                    <label>CodeCommit</label>
+                </value>
+                <value>
+                    <fullName>Github</fullName>
+                    <default>false</default>
+                    <label>Github</label>
+                </value>
+                <value>
+                    <fullName>Gitlab</fullName>
+                    <default>false</default>
+                    <label>Gitlab</label>
+                </value>
+                <value>
+                    <fullName>Not Applicable</fullName>
+                    <default>false</default>
+                    <label>Not Applicable</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>SVN</fullName>
+                    <default>false</default>
+                    <label>SVN</label>
+                </value>
+                <value>
+                    <fullName>TFS</fullName>
+                    <default>false</default>
+                    <label>TFS</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>Azure DevOps</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>Bitbucket</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>CodeCommit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>Github</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>Gitlab</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>Not Applicable</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>SVN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>TFS</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <label>Start Date</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <label>Status</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Upcoming</fullName>
+                    <default>true</default>
+                    <label>Upcoming</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Storage_Environment_Hosting__c</fullName>
+        <label>Storage Environment Hosting</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Product__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Our Cloud</fullName>
+                    <default>false</default>
+                    <label>Our Cloud</label>
+                </value>
+                <value>
+                    <fullName>Their network</fullName>
+                    <default>false</default>
+                    <label>Their network</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <valueName>Our Cloud</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <valueName>Their network</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Storage_Environment__c</fullName>
+        <label>Storage Environment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Product__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AWS</fullName>
+                    <default>false</default>
+                    <label>AWS</label>
+                </value>
+                <value>
+                    <fullName>Azure</fullName>
+                    <default>false</default>
+                    <label>Azure</label>
+                </value>
+                <value>
+                    <fullName>GCP</fullName>
+                    <default>false</default>
+                    <label>GCP</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <valueName>AWS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <valueName>Azure</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <valueName>GCP</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Team_Orientation__c</fullName>
+        <label>Team Orientation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <controllingField>Product__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Admin</fullName>
+                    <default>false</default>
+                    <label>Admin</label>
+                </value>
+                <value>
+                    <fullName>Developers</fullName>
+                    <default>false</default>
+                    <label>Developers</label>
+                </value>
+                <value>
+                    <fullName>Architects</fullName>
+                    <default>false</default>
+                    <label>Architects</label>
+                </value>
+                <value>
+                    <fullName>Release Manager</fullName>
+                    <default>false</default>
+                    <label>Release Manager</label>
+                </value>
+                <value>
+                    <fullName>Compliance Officer</fullName>
+                    <default>false</default>
+                    <label>Compliance Officer</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <valueName>Admin</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>Developers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>Architects</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <valueName>Compliance Officer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <valueName>Release Manager</valueName>
+            </valueSettings>
+        </valueSet>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Technical_Win__c</fullName>
+        <inlineHelpText>Select this checkbox if the product can solve for customer&apos;s technical requirement.</inlineHelpText>
+        <label>Technical Win</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Test_Automation__c</fullName>
+        <label>Test Automation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Product__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Selenium</fullName>
+                    <default>false</default>
+                    <label>Selenium</label>
+                </value>
+                <value>
+                    <fullName>Provar</fullName>
+                    <default>false</default>
+                    <label>Provar</label>
+                </value>
+                <value>
+                    <fullName>AccelQ</fullName>
+                    <default>false</default>
+                    <label>AccelQ</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Not Applicable</fullName>
+                    <default>false</default>
+                    <label>Not Applicable</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>Selenium</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>Provar</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>AccelQ</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>Not Applicable</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Use_Cases__c</fullName>
+        <label>Use Cases</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <controllingField>Product__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Account Management</fullName>
+                    <default>false</default>
+                    <label>Account Management</label>
+                </value>
+                <value>
+                    <fullName>Archival</fullName>
+                    <default>false</default>
+                    <label>Archival</label>
+                </value>
+                <value>
+                    <fullName>Auto-Deploy Properties</fullName>
+                    <default>false</default>
+                    <label>Auto-Deploy Properties</label>
+                </value>
+                <value>
+                    <fullName>Backup</fullName>
+                    <default>false</default>
+                    <label>Backup</label>
+                </value>
+                <value>
+                    <fullName>Build Maven Jobs</fullName>
+                    <default>false</default>
+                    <label>Build Maven Jobs</label>
+                </value>
+                <value>
+                    <fullName>CI Jobs</fullName>
+                    <default>false</default>
+                    <label>CI Jobs</label>
+                </value>
+                <value>
+                    <fullName>Compare</fullName>
+                    <default>false</default>
+                    <label>Compare</label>
+                </value>
+                <value>
+                    <fullName>Dataloader</fullName>
+                    <default>false</default>
+                    <label>Dataloader</label>
+                </value>
+                <value>
+                    <fullName>Environment Provisioning</fullName>
+                    <default>false</default>
+                    <label>Environment Provisioning</label>
+                </value>
+                <value>
+                    <fullName>Environment Registrations</fullName>
+                    <default>false</default>
+                    <label>Environment Registrations</label>
+                </value>
+                <value>
+                    <fullName>GDPR</fullName>
+                    <default>false</default>
+                    <label>GDPR</label>
+                </value>
+                <value>
+                    <fullName>Identify Issues</fullName>
+                    <default>false</default>
+                    <label>Identify Issues</label>
+                </value>
+                <value>
+                    <fullName>Manage Environment Properties</fullName>
+                    <default>false</default>
+                    <label>Manage Environment Properties</label>
+                </value>
+                <value>
+                    <fullName>Monitoring</fullName>
+                    <default>false</default>
+                    <label>Monitoring</label>
+                </value>
+                <value>
+                    <fullName>nCino</fullName>
+                    <default>false</default>
+                    <label>nCino</label>
+                </value>
+                <value>
+                    <fullName>Org Synchronization</fullName>
+                    <default>false</default>
+                    <label>Org Synchronization</label>
+                </value>
+                <value>
+                    <fullName>Profile Manager</fullName>
+                    <default>false</default>
+                    <label>Profile Manager</label>
+                </value>
+                <value>
+                    <fullName>Replicate</fullName>
+                    <default>false</default>
+                    <label>Replicate</label>
+                </value>
+                <value>
+                    <fullName>Reporting</fullName>
+                    <default>false</default>
+                    <label>Reporting</label>
+                </value>
+                <value>
+                    <fullName>Restore</fullName>
+                    <default>false</default>
+                    <label>Restore</label>
+                </value>
+                <value>
+                    <fullName>SalesforceDX</fullName>
+                    <default>false</default>
+                    <label>SalesforceDX</label>
+                </value>
+                <value>
+                    <fullName>Security Compliance</fullName>
+                    <default>false</default>
+                    <label>Security Compliance</label>
+                </value>
+                <value>
+                    <fullName>Selective Deployment</fullName>
+                    <default>false</default>
+                    <label>Selective Deployment</label>
+                </value>
+                <value>
+                    <fullName>Template Configuration</fullName>
+                    <default>false</default>
+                    <label>Template Configuration</label>
+                </value>
+                <value>
+                    <fullName>Template Deployment</fullName>
+                    <default>false</default>
+                    <label>Template Deployment</label>
+                </value>
+                <value>
+                    <fullName>Test Execution</fullName>
+                    <default>false</default>
+                    <label>Test Execution</label>
+                </value>
+                <value>
+                    <fullName>Testing</fullName>
+                    <default>false</default>
+                    <label>Testing</label>
+                </value>
+                <value>
+                    <fullName>Version Control</fullName>
+                    <default>false</default>
+                    <label>Version Control</label>
+                </value>
+                <value>
+                    <fullName>Vlocity</fullName>
+                    <default>false</default>
+                    <label>Vlocity</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>Account Management</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>CI Jobs</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>Dataloader</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>Environment Provisioning</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <valueName>Environment Registrations</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>nCino</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>Org Synchronization</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>Profile Manager</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>SalesforceDX</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>Selective Deployment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>Testing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>Version Control</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <valueName>Vlocity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <valueName>Archival</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <valueName>Backup</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <valueName>Compare</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <valueName>GDPR</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <valueName>Monitoring</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <valueName>Replicate</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <valueName>Restore</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <valueName>Identify Issues</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <valueName>Security Compliance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <valueName>Template Configuration</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <valueName>Template Deployment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>Auto-Deploy Properties</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>Build Maven Jobs</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>Manage Environment Properties</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>Test Execution</valueName>
+            </valueSettings>
+        </valueSet>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>VCS_Authentication__c</fullName>
+        <label>VCS Authentication</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Product__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Basic Auth</fullName>
+                    <default>false</default>
+                    <label>Basic Auth</label>
+                </value>
+                <value>
+                    <fullName>Token-based</fullName>
+                    <default>false</default>
+                    <label>Token-based</label>
+                </value>
+                <value>
+                    <fullName>SSH</fullName>
+                    <default>false</default>
+                    <label>SSH</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>Basic Auth</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>Token-based</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>SSH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <controllingFieldValue>Mulesoft</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>VCS_Hosting__c</fullName>
+        <label>VCS Hosting</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Product__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Public Access</fullName>
+                    <default>false</default>
+                    <label>Public Access</label>
+                </value>
+                <value>
+                    <fullName>Behind Firewall</fullName>
+                    <default>false</default>
+                    <label>Behind Firewall</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <valueName>Public Access</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ARM</controllingFieldValue>
+                <controllingFieldValue>CodeScan</controllingFieldValue>
+                <controllingFieldValue>RBM</controllingFieldValue>
+                <valueName>Behind Firewall</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Vault_Implementation__c</fullName>
+        <label>Vault Implementation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Product__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cloud</fullName>
+                    <default>false</default>
+                    <label>Cloud</label>
+                </value>
+                <value>
+                    <fullName>Self-Hosted</fullName>
+                    <default>false</default>
+                    <label>Self-Hosted</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <valueName>Cloud</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Vault</controllingFieldValue>
+                <valueName>Self-Hosted</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Vault_Subscriptions__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity_Name__r.No_of_Product_Subs_Vault__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Vault Subscriptions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Presales</label>
+    <listViews>
+        <fullName>All1</fullName>
+        <columns>NAME</columns>
+        <columns>Account_Name__c</columns>
+        <columns>Solutions_Architect__c</columns>
+        <columns>Product__c</columns>
+        <columns>Current_Stage__c</columns>
+        <columns>Status__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Use_Cases__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>PST-{00000}</displayFormat>
+        <label>Presales Number</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Presales</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Solutions_Architect__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Start_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>End_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Current_Stage__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Solutions_Architect__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Current_Stage__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Start_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>End_Date__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>Solutions_Architect__c</searchFilterFields>
+        <searchFilterFields>Start_Date__c</searchFilterFields>
+        <searchFilterFields>End_Date__c</searchFilterFields>
+        <searchFilterFields>Status__c</searchFilterFields>
+        <searchFilterFields>Current_Stage__c</searchFilterFields>
+        <searchResultsAdditionalFields>Product__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Current_Stage__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>POC_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Start_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>End_Date__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>ALM</fullName>
+        <active>true</active>
+        <description>Mandate &quot;ALM&quot; field when the Product is &quot;ARM&quot;.</description>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c) , &quot;ARM&quot;) &amp;&amp;  
+ISBLANK( TEXT(   ALM__c ) )</errorConditionFormula>
+        <errorDisplayField>ALM__c</errorDisplayField>
+        <errorMessage>ALM is required when the Product is &quot;ARM&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CI_Tool_currently_used</fullName>
+        <active>true</active>
+        <description>Mandate &quot;CI Tool currently used&quot; field when the Product is &quot;CodeScan&quot;.</description>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c) , &quot;CodeScan&quot;) &amp;&amp;  
+LEN( CI_Tool_currently_used__c ) &lt;= 0</errorConditionFormula>
+        <errorDisplayField>CI_Tool_currently_used__c</errorDisplayField>
+        <errorMessage>CI Tool currently used is required when the Product is &quot;CodeScan&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Current_Data_Migration_Solution</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Current Data Migration Solution&quot; field when the Product is &quot;RBM&quot;.</description>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c) , &quot;RBM&quot;) &amp;&amp;  
+LEN(  Current_Data_Migration_Solution__c  ) &lt;= 0</errorConditionFormula>
+        <errorDisplayField>Current_Data_Migration_Solution__c</errorDisplayField>
+        <errorMessage>Current Data Migration Solution is required when the Product is &quot;RBM&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Current_IDE</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Current IDE&quot; field when the Product is &quot;CodeScan&quot;.</description>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c) , &quot;CodeScan&quot;) &amp;&amp;  
+LEN(TEXT(  Current_IDE__c  )) &lt;= 0</errorConditionFormula>
+        <errorDisplayField>Current_IDE__c</errorDisplayField>
+        <errorMessage>Current IDE is required when the Product is &quot;CodeScan&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Current_Release_Process</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Current Release Process&quot; field when the Product is &quot;ARM&quot; or  &quot;RBM&quot; or &quot;Mulesoft&quot;.</description>
+        <errorConditionFormula>( CONTAINS(TEXT(Product__c) , &quot;ARM&quot;) || CONTAINS(TEXT(Product__c) , &quot;RBM&quot;) || CONTAINS(TEXT(Product__c) , &quot;Mulesoft&quot;)) &amp;&amp;  
+LEN( Current_Release_Process__c  ) &lt;= 0</errorConditionFormula>
+        <errorDisplayField>Current_Release_Process__c</errorDisplayField>
+        <errorMessage>Current Release Process is required when the Product is &quot;ARM&quot; or &quot;RBM&quot; or &quot;Mulesoft&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>End_Date_Not_Required_for_TAM_Stage_Only</fullName>
+        <active>true</active>
+        <description>End Date is required for all Presales Stages except for TAM Stage.</description>
+        <errorConditionFormula>AND( 
+ISBLANK( End_Date__c ) ,
+NOT(TEXT( Current_Stage__c) = &apos;TAM&apos;))</errorConditionFormula>
+        <errorMessage>End Date is mandatory. Please enter &apos;End Date&apos; in order to save.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Environments_brought_in_for_PoC</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Environments brought in for PoC&quot; field when the Product is &quot;Vault&quot;.</description>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c), &quot;Vault&quot;) &amp;&amp;  
+LEN( Environments_brought_in_for_PoC__c ) &lt;= 0</errorConditionFormula>
+        <errorDisplayField>Environments_brought_in_for_PoC__c</errorDisplayField>
+        <errorMessage>Environments brought in for PoC is required when the Product is &quot;Vault&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Existing_data_backup_solution</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Existing data backup solution&quot; field when the Product is &quot;Vault&quot;.</description>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c), &quot;Vault&quot;) &amp;&amp;  
+LEN( Existing_data_backup_solution__c ) &lt;= 0</errorConditionFormula>
+        <errorDisplayField>Existing_data_backup_solution__c</errorDisplayField>
+        <errorMessage>Existing data backup solution is required when the Product is &quot;Vault&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Is_Customer_Data_Protected</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Is Customer Data Protected field&quot; when the Product is &quot;Vault&quot;.</description>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c), &quot;Vault&quot;) &amp;&amp;  
+LEN(   Is_Customer_Data_Protected__c   ) &lt;= 0</errorConditionFormula>
+        <errorDisplayField>Is_Customer_Data_Protected__c</errorDisplayField>
+        <errorMessage>Is Customer Data Protected is required when the Product is &quot;Vault&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Is_DX_Used</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Is DX Used?&quot; field when the Product is &quot;ARM&quot;.</description>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c) , &quot;ARM&quot;) &amp;&amp;  
+ISBLANK( TEXT(    Is_DX_used__c  ) )</errorConditionFormula>
+        <errorDisplayField>Is_DX_used__c</errorDisplayField>
+        <errorMessage>Is DX Used? is required when the Product is &quot;ARM&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Log_ARM_Ticket</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND ( ISPICKVAL(Log_a_Ticket_with__c, &apos;ARM Support&apos;), Bypass_Validation_Rule__c = False,
+OR(
+LEN ( Issue_Description__c ) = 0 ,
+ISBLANK( Product_Instance__c ) ,
+ISBLANK( Product_Version__c ),
+ISBLANK( Module__c ),
+ISBLANK( TEXT(Issue_Enhancement_in__c )),
+ISBLANK( TEXT( Priority__c ))
+)
+)</errorConditionFormula>
+        <errorMessage>Please make sure you have entered &apos;Issue/Enhancement in&apos;, &apos;Issue Description&apos;, &apos;Product Instance&apos;, &apos;Product Version&apos;, &apos;Module&apos;, and &apos;Priority&apos; to submit a ticket to ARM support.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Log_IT_Help_Desk_Ticket</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND ( ISPICKVAL( Log_a_Ticket_with__c, &apos;IT Help Desk&apos;), Bypass_Validation_Rule__c = False,
+OR(
+LEN ( Issue_Description__c ) = 0 ,
+ISBLANK( Product_Instance__c ) ,
+ISBLANK( Product_Version__c ),
+ISBLANK( TEXT(Issue_Enhancement_in__c )),
+ISBLANK( TEXT( Priority__c ))
+)
+)</errorConditionFormula>
+        <errorMessage>Please make sure you have entered &apos;Issue/Enhancement in&apos;, &apos;Issue Description&apos;, &apos;Product Instance&apos;, &apos;Product Version&apos;, and &apos;Priority&apos; to submit a ticket to the IT Help Desk.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Log_PMT_Ticket</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND ( ISPICKVAL(Log_a_Ticket_with__c, &apos;PMT&apos;), Bypass_Validation_Rule__c = False,
+OR(
+ISBLANK(TEXT( Issue_Enhancement_in__c )),
+ISBLANK(  Product_Instance__c ),
+ISBLANK( Module__c ),
+LEN( Feature_Request_Description__c ) = 0 ,
+ISBLANK( Deal_Size__c ) ,
+ISBLANK( TEXT(Priority__c ))
+)
+)</errorConditionFormula>
+        <errorMessage>Please make sure you have entered &quot;Issue/Enhancement in&apos;, &apos;Product Instance&apos;,  &apos;Module&apos;&apos;, &apos;Feature Request Description&apos;, Deal Size&apos;, and &apos;Priority of the Request&apos; to send an email to PMT.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Log_Support_Ticket</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND ( ISPICKVAL(Log_a_Ticket_with__c, &apos;Support&apos;), Bypass_Validation_Rule__c = False,
+OR(
+ISBLANK( TEXT(Issue_Enhancement_in__c )),
+ISBLANK( Product_Instance__c ),
+ISBLANK( Module__c ),
+LEN ( Issue_Description__c ) = 0 ,
+ISBLANK( TEXT( Priority__c ))
+)
+)</errorConditionFormula>
+        <errorMessage>Please make sure you have entered &apos;Issue/Enhancement in&apos;, &apos;Product Instance&apos;, &apos;Module&apos;, &apos;Issue Description&apos;, and &apos;Priority&apos; to submit a ticket to the support.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Log_Vault_Ticket</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND ( ISPICKVAL(Log_a_Ticket_with__c, &apos;Vault Support&apos;),  Bypass_Validation_Rule__c = False,
+OR(
+LEN ( Issue_Description__c ) = 0,
+ISBLANK( Product_Instance__c ) ,
+ISBLANK( Module__c ),
+ISBLANK( TEXT(Issue_Enhancement_in__c )),
+ISBLANK( TEXT( Priority__c ))
+)
+)</errorConditionFormula>
+        <errorMessage>Please make sure you have entered &apos;Issue/Enhancement in&apos;, &apos;Issue Description&apos;, &apos;Product Instance&apos;, &apos;Module&apos; and &apos;Priority&apos; to submit a ticket to Vault support.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Managed_Packages</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Managed Packages&quot; when the Product is &quot;Vault&quot; or &quot;RBM&quot;.</description>
+        <errorConditionFormula>(CONTAINS(TEXT(Product__c), &quot;Vault&quot;) || CONTAINS(TEXT(Product__c) , &quot;RBM&quot;)) &amp;&amp;  
+LEN( Managed_Packages__c   ) &lt;= 0</errorConditionFormula>
+        <errorDisplayField>Managed_Packages__c</errorDisplayField>
+        <errorMessage>Managed Packages is required when the Product is &quot;Vault&quot; or &quot;RBM&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Mandate_Lines_of_Code</fullName>
+        <active>true</active>
+        <description>Mandate Lines of Code when the Product is &quot;CodeScan&quot;</description>
+        <errorConditionFormula>AND(  ISBLANK( Lines_of_Code__c ),ISPICKVAL( Product__c , &apos;CodeScan&apos;) )</errorConditionFormula>
+        <errorDisplayField>Lines_of_Code__c</errorDisplayField>
+        <errorMessage>Lines of Code is required when the Product selected is &quot;CodeScan&quot;. Please enter a numeric value for Lines of Code.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Mandate_Product_Version</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND ( Bypass_Validation_Rule__c = False,
+ISBLANK( Product_Version__c ), OR( ISPICKVAL(Issue_Enhancement_in__c, &apos;ARM&apos;), ISPICKVAL(Issue_Enhancement_in__c, &apos;RBM&apos;), ISPICKVAL(Issue_Enhancement_in__c, &apos;CodeScan&apos;)
+)
+)</errorConditionFormula>
+        <errorDisplayField>Product_Version__c</errorDisplayField>
+        <errorMessage>Please make sure you have entered &apos;Product Version&apos; when &apos;Issue/Enhancement in&apos; selected is ARM&apos; or &apos;CodeScan&apos; or &apos;RBM&apos; to submit a ticket to the support.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Mandate_Review_for_Vault_Prerequisites</fullName>
+        <active>true</active>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c), &quot;Vault&quot;) &amp;&amp; Review_Vault_Pre_requisites__c = False</errorConditionFormula>
+        <errorDisplayField>Review_Vault_Pre_requisites__c</errorDisplayField>
+        <errorMessage>Please review pre-requisites for Vault (available in help text) if the customer is opting for PoC.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Mule_Hosting</fullName>
+        <active>true</active>
+        <description>This field is required when the Product is &quot;Mulesoft&quot;.</description>
+        <errorConditionFormula>TEXT(Product__c) = &quot;Mulesoft&quot; &amp;&amp;  ISBLANK(TEXT(Mule_Hosting__c))</errorConditionFormula>
+        <errorDisplayField>Mule_Hosting__c</errorDisplayField>
+        <errorMessage>Mule Hosting is required when Product is &quot;Mulesoft&quot;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Number_of_Orgs</fullName>
+        <active>true</active>
+        <description>Mandate &quot;# of Orgs&quot; field when the Product is &quot;ARM&quot; or &quot;Vault&quot; or &quot;RBM&quot; or &quot;Mulesoft&quot;.</description>
+        <errorConditionFormula>OR( CONTAINS(TEXT(Product__c), &quot;ARM&quot;), CONTAINS(TEXT(Product__c), &quot;Vault&quot;), CONTAINS(TEXT(Product__c) , &quot;RBM&quot;), CONTAINS(TEXT(Product__c) , &quot;Mulesoft&quot;) ) &amp;&amp;  
+ISBLANK( Orgs__c )</errorConditionFormula>
+        <errorDisplayField>Orgs__c</errorDisplayField>
+        <errorMessage>&quot;# of Orgs&quot; is required when the Product is &quot;ARM&quot; or &quot;Vault&quot; or &quot;RBM&quot; or &quot;Mulesoft&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Number_of_Repositories</fullName>
+        <active>true</active>
+        <description>Mandate &quot;# of Repositories&quot; field when the Product is &quot;ARM&quot; or &quot;Mulesoft&quot;.</description>
+        <errorConditionFormula>(CONTAINS(TEXT(Product__c), &quot;ARM&quot;) || CONTAINS(TEXT(Product__c), &quot;Mulesoft&quot;)) &amp;&amp;  
+ISBLANK( Repositories__c )</errorConditionFormula>
+        <errorDisplayField>Repositories__c</errorDisplayField>
+        <errorMessage>&quot;# of Repositories&quot; is required when the Product is &quot;ARM&quot; or &quot;Mulesoft&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Number_of_SF_Developers</fullName>
+        <active>true</active>
+        <description>Mandate &quot;# SF Developers&quot; field when the Product is &quot;CodeScan&quot;.</description>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c), &quot;CodeScan&quot;) &amp;&amp;  
+ISBLANK( SF_Developers__c )</errorConditionFormula>
+        <errorDisplayField>SF_Developers__c</errorDisplayField>
+        <errorMessage>&quot;# SF Developers&quot; is required when the Product is &quot;CodeScan&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Number_of_SF_environments_to_be_scanned</fullName>
+        <active>true</active>
+        <description>Mandate &quot;# SF environments to be scanned&quot; field when the Product is &quot;CodeScan&quot;.</description>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c), &quot;CodeScan&quot;) &amp;&amp;  
+ISBLANK( SF_environments_to_be_scanned__c )</errorConditionFormula>
+        <errorDisplayField>SF_environments_to_be_scanned__c</errorDisplayField>
+        <errorMessage>&quot;# SF environments to be scanned&quot; is required when the Product is &quot;CodeScan&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Number_of_Sandboxes</fullName>
+        <active>true</active>
+        <description>Mandate &quot;# of Sandboxes&quot; field when the Product is &quot;ARM&quot; or &quot;Vault&quot; or &apos;RBM&quot; or &quot;Mulesoft&quot;.</description>
+        <errorConditionFormula>OR( CONTAINS(TEXT(Product__c), &quot;ARM&quot;), CONTAINS(TEXT(Product__c), &quot;Vault&quot;), CONTAINS(TEXT(Product__c) , &quot;RBM&quot;), CONTAINS(TEXT(Product__c) , &quot;Mulesoft&quot;) ) &amp;&amp;  
+ISBLANK( Sandboxes__c )</errorConditionFormula>
+        <errorDisplayField>Sandboxes__c</errorDisplayField>
+        <errorMessage>&quot;# of Sandboxes&quot; is required when the Product is &quot;ARM&quot; or &quot;Vault&quot; or &quot;RBM&quot; or &quot;Mulesoft&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Number_of_Users</fullName>
+        <active>false</active>
+        <description>Mandate &quot;# of  Users&quot; field when the Product is &quot;ARM&quot;.</description>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c), &quot;ARM&quot;) &amp;&amp;  
+ISBLANK(  Users__c )</errorConditionFormula>
+        <errorMessage>&quot;# of Users&quot; is required when the Product is &quot;ARM&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Other_ALM_Authentication</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Other ALM Authentication&quot; field when ALM Authentication is selected as &quot;Other&quot;.</description>
+        <errorConditionFormula>ISPICKVAL( ALM_Authentication__c , &quot;Other&quot;) &amp;&amp;  
+ISBLANK( Other_ALM_Authentication__c  )</errorConditionFormula>
+        <errorDisplayField>Other_ALM_Authentication__c</errorDisplayField>
+        <errorMessage>Please enter &quot;Other ALM Authentication&quot; since the ALM Authentication is selected as &quot;Other&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Other_IDE</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Other IDE&quot; field when IDE is selected as &quot;Other&quot;.</description>
+        <errorConditionFormula>ISPICKVAL(  Current_IDE__c  , &quot;Other&quot;) &amp;&amp;  
+ISBLANK(  Other_IDE__c   )</errorConditionFormula>
+        <errorDisplayField>Other_IDE__c</errorDisplayField>
+        <errorMessage>Please enter &quot;Other IDE&quot; since the Current IDE is selected as &quot;Other&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Other_SCA</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Other SCA&quot; field when SCA is selected as &quot;Other&quot;.</description>
+        <errorConditionFormula>ISPICKVAL(   SCA__c  , &quot;Other&quot;) &amp;&amp;  
+ISBLANK(   Other_SCA__c    )</errorConditionFormula>
+        <errorDisplayField>Other_SCA__c</errorDisplayField>
+        <errorMessage>Please enter &quot;Other SCA&quot; since the SCA is selected as &quot;Other&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Other_SSO</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Other SSO&quot; field when SSO is selected as &quot;Other&quot;.</description>
+        <errorConditionFormula>ISPICKVAL(  SSO__c  , &quot;Other&quot;) &amp;&amp;  
+ISBLANK(  Other_SSO__c   )</errorConditionFormula>
+        <errorDisplayField>Other_SSO__c</errorDisplayField>
+        <errorMessage>Please enter &quot;Other SSO&quot; since the SSO is selected as &quot;Other&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Other_Storage_Environment</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Other Storage Environment&quot; field when VCS Authentication is selected as &quot;Other&quot;.</description>
+        <errorConditionFormula>ISPICKVAL( Storage_Environment__c  , &quot;Other&quot;) &amp;&amp;   ISBLANK( Other_Storage_Environment__c  )</errorConditionFormula>
+        <errorDisplayField>Other_Storage_Environment__c</errorDisplayField>
+        <errorMessage>Please enter &quot;Other Storage Environment&quot; since the VCS Authentication is selected as &quot;Other&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Other_Test_Automation</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Other Test Automation&quot; field when Test Automation is selected as &quot;Other&quot;.</description>
+        <errorConditionFormula>ISPICKVAL(  Test_Automation__c  , &quot;Other&quot;) &amp;&amp;  
+ISBLANK(  Other_Test_Automation__c  )</errorConditionFormula>
+        <errorDisplayField>Other_Test_Automation__c</errorDisplayField>
+        <errorMessage>Please enter &quot;Other Test Automation&quot; since the Test Automation is selected as &quot;Other&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Other_VCS_Authentication</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Other VCS Authentication&quot; field when VCS Authentication is selected as &quot;Other&quot;.</description>
+        <errorConditionFormula>ISPICKVAL(VCS_Authentication__c , &quot;Other&quot;) &amp;&amp;   ISBLANK(Other_VCS_Authentication__c )</errorConditionFormula>
+        <errorDisplayField>Other_VCS_Authentication__c</errorDisplayField>
+        <errorMessage>Please enter &quot;Other VCS Authentication&quot; since the VCS Authentication is selected as &quot;Other&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Release_Frequency</fullName>
+        <active>true</active>
+        <description>Mandate the &quot;Release Frequency&quot; field when the Product is &quot;ARM&quot; or &quot;RBM&quot; or &quot;Mulesoft&quot;.</description>
+        <errorConditionFormula>(CONTAINS(TEXT(Product__c) , &quot;ARM&quot;) || CONTAINS(TEXT(Product__c) , &quot;RBM&quot;) || CONTAINS(TEXT(Product__c) , &quot;Mulesoft&quot;)) &amp;&amp;  
+ISBLANK( TEXT( Release_Frequency__c ) )</errorConditionFormula>
+        <errorDisplayField>Release_Frequency__c</errorDisplayField>
+        <errorMessage>&quot;Release Frequency&quot; is required when the Product is &quot;ARM&quot; or &quot;RBM&quot; or &quot;Mulesoft&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SF_Licensed_Users</fullName>
+        <active>false</active>
+        <description>Mandate &quot;# SF Licensed Users&quot; field when the Product is &quot;ARM&quot; or &quot;Vault&quot;.</description>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c), &quot;Vault&quot;) &amp;&amp;  
+ISBLANK(  SF_Licensed_Users__c  )</errorConditionFormula>
+        <errorMessage>&quot;# SF Licensed Users&quot; is required when the Product is &quot;Vault&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Salesforce_API_Call_Limit</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Salesforce API Call Limit&quot; field when the Product is &quot;Vault&quot;.</description>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c), &quot;Vault&quot;) &amp;&amp;  
+LEN(  Salesforce_API_Call_Limit__c  ) &lt;= 0</errorConditionFormula>
+        <errorDisplayField>Salesforce_API_Call_Limit__c</errorDisplayField>
+        <errorMessage>&quot;Salesforce API Call Limit&quot; is required when the Product is &quot;Vault&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Salesforce_clouds_used</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Salesforce clouds&quot; used field when the Product is &quot;Vault&quot;.</description>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c), &quot;Vault&quot;) &amp;&amp;  
+LEN(    Salesforce_clouds_used__c    ) &lt;= 0</errorConditionFormula>
+        <errorDisplayField>Salesforce_clouds_used__c</errorDisplayField>
+        <errorMessage>&quot;Salesforce clouds used&quot; is required when the Product is &quot;Vault&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Size_of_Largest_Org</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Size of Largest Org&quot; field when the Product is &quot;Vault&quot;.</description>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c), &quot;Vault&quot;) &amp;&amp;  
+LEN( Size_of_Largest_Org__c ) &lt;= 0</errorConditionFormula>
+        <errorDisplayField>Size_of_Largest_Org__c</errorDisplayField>
+        <errorMessage>&quot;Size of Largest Org&quot; is required when the Product is &quot;Vault&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Source_Control</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Source Control&quot; field when the Product is &quot;ARM&quot; or &quot;CodeScan&quot; or &quot;Mulesoft.</description>
+        <errorConditionFormula>OR(
+CONTAINS(TEXT(Product__c) , &quot;ARM&quot;), CONTAINS(TEXT(Product__c) , &quot;CodeScan&quot;), CONTAINS(TEXT(Product__c) , &quot;Mulesoft&quot;)) &amp;&amp;  
+ISBLANK( TEXT(   Source_Control__c  ) )</errorConditionFormula>
+        <errorDisplayField>Source_Control__c</errorDisplayField>
+        <errorMessage>Source Control is required when the Product is &quot;ARM&quot; or &quot;CodeScan&quot; or &quot;Mulesoft&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Storage_Environment</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Storage Environment&quot; field when the Product is &quot;Vault&quot;.</description>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c) , &quot;Vault&quot;) &amp;&amp;  
+ISBLANK( TEXT( Storage_Environment__c ) )</errorConditionFormula>
+        <errorDisplayField>Storage_Environment__c</errorDisplayField>
+        <errorMessage>&quot;Storage Environment&quot; is required when the Product is &quot;Vault&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Storage_Environment_Hosting</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Storage Environment Hosting&quot; field when the Product is &quot;Vault&quot;.</description>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c) , &quot;Vault&quot;) &amp;&amp;  
+ISBLANK( TEXT(  Storage_Environment_Hosting__c  ) )</errorConditionFormula>
+        <errorDisplayField>Storage_Environment_Hosting__c</errorDisplayField>
+        <errorMessage>&quot;Storage Environment Hosting&quot; is required when the Product is &quot;Vault&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Test_Automation</fullName>
+        <active>true</active>
+        <description>Mandate &quot;Test Automation&quot; field when the Product is &quot;ARM&quot;.</description>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c) , &quot;ARM&quot;) &amp;&amp;  
+ISBLANK( TEXT(  Test_Automation__c ) )</errorConditionFormula>
+        <errorDisplayField>Test_Automation__c</errorDisplayField>
+        <errorMessage>&quot;Test Automation&quot; is required when the Product is &quot;ARM&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VCS_Authentication</fullName>
+        <active>true</active>
+        <description>Mandate &quot;VCS Authentication&quot; field when the Product is &quot;CodeScan&quot; and Source Control is not &quot;Not Applicable&quot;.</description>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c) , &quot;CodeScan&quot;) &amp;&amp;   NOT( TEXT(Source_Control__c ) = &quot;Not Applicable&quot;) &amp;&amp;
+ISBLANK( TEXT(VCS_Authentication__c))</errorConditionFormula>
+        <errorDisplayField>VCS_Authentication__c</errorDisplayField>
+        <errorMessage>VCS Authentication is required when the Product is &quot;CodeScan&quot;  and Source Control is not &quot;Not Applicable&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>VCS_Hosting</fullName>
+        <active>true</active>
+        <description>Mandate &quot;VCS Hosting&quot; field when the Product is &quot;CodeScan&quot; and Source Control is not &quot;Not Applicable&quot;.</description>
+        <errorConditionFormula>CONTAINS(TEXT(Product__c) , &quot;CodeScan&quot;) &amp;&amp;  NOT( TEXT(Source_Control__c ) = &quot;Not Applicable&quot;) &amp;&amp;
+ISBLANK( TEXT(  VCS_Hosting__c  ) )</errorConditionFormula>
+        <errorDisplayField>VCS_Hosting__c</errorDisplayField>
+        <errorMessage>VCS Hosting is required when the Product is &quot;CodeScan&quot; and Souce Control is not &quot;Not Applicable&quot;.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

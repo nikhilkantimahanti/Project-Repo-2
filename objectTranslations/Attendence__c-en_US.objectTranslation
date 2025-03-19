@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Attendence</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Attendences</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Course__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Present__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Student_ID__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

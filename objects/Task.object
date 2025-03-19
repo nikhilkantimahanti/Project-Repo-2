@@ -1,0 +1,3101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Close</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Close</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Close</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LaunchFlowForManualTask</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LaunchFlowForManualTask</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LaunchFlowForManualTask</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LaunchOmniForManualTask</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LaunchOmniForManualTask</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LaunchOmniForManualTask</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewTask</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewTask</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewTask</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>LID__Tasks</fullName>
+        <fields>Subject</fields>
+        <fields>WhoId</fields>
+        <fields>WhatId</fields>
+        <label>Tasks</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>Task_Layout</fullName>
+        <fields>Type</fields>
+        <fields>Subject</fields>
+        <fields>Status</fields>
+        <fields>ActivityDate</fields>
+        <fields>WhatId</fields>
+        <fields>Ramble__Ramble_Chat_Type__c</fields>
+        <fields>Ramble__Ramble_Chat_URL__c</fields>
+        <label>Task Layout</label>
+    </compactLayouts>
+    <enableFeeds>true</enableFeeds>
+    <fieldSets>
+        <fullName>activities__CreateTasks</fullName>
+        <availableFields>
+            <field>AccountId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>IsRecurrence</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>RecurrenceActivityId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>RecurrenceDayOfMonth</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>RecurrenceDayOfWeekMask</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>RecurrenceInterval</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>RecurrenceMonthOfYear</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>RecurrenceRegeneratedType</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>WhatId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>WhoId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>CreateTasks</description>
+        <displayedFields>
+            <field>OwnerId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ActivityDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Subject</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Status</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Type</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Priority</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Description</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>CreateTasks</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>activities__MassUpdateTasks</fullName>
+        <description>UpdateTasks</description>
+        <displayedFields>
+            <field>OwnerId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ActivityDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Subject</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Status</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>WhoId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>WhatId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Type</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Priority</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>IsReminderSet</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ReminderDateTime</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Description</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>MassUpdateTasks</label>
+    </fieldSets>
+    <fields>
+        <fullName>ActivityDate</fullName>
+        <inlineHelpText>Date of the related task, for an intro call, this would be the date the intro call will/did occur</inlineHelpText>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CallDisposition</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CallDurationInSeconds</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CallObject</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CallType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CompletedDateTime</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <inlineHelpText>Long-form note.</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+    </fields>
+    <fields>
+        <fullName>IsRecurrence</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsReminderSet</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsVisibleInSelfService</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>Priority</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>RecurrenceInterval</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>RecurrenceRegeneratedType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>TaskSubtype</fullName>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>WhatId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WhoId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <listViews>
+        <fullName>CompletedTasks</fullName>
+        <columns>TYPE</columns>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>DUE_DATE</columns>
+        <columns>STATUS</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>IS_CLOSED</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>IS_RECURRENCE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>LAST_UPDATE</field>
+            <operation>equals</operation>
+            <value>TODAY,LAST_N_DAYS:30</value>
+        </filters>
+        <label>My Recently Completed Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>DelegatedTasks</fullName>
+        <columns>TYPE</columns>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>DUE_DATE</columns>
+        <columns>STATUS</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Delegated</filterScope>
+        <label>My Delegated Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>Intro_Call_Overdue_Tasks</fullName>
+        <columns>TYPE</columns>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>DUE_DATE</columns>
+        <columns>STATUS</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>IS_CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>DUE_DATE</field>
+            <operation>lessThan</operation>
+            <value>TODAY</value>
+        </filters>
+        <filters>
+            <field>TYPE</field>
+            <operation>equals</operation>
+            <value>Intro Call</value>
+        </filters>
+        <label>My Intro Call Overdue Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Intro_Calls_Held</fullName>
+        <columns>TYPE</columns>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>DUE_DATE</columns>
+        <columns>STATUS</columns>
+        <columns>COMPLETED_DATE_TIME</columns>
+        <columns>Next_Step__c</columns>
+        <columns>Reason__c</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>TYPE</field>
+            <operation>equals</operation>
+            <value>Intro Call</value>
+        </filters>
+        <filters>
+            <field>STATUS</field>
+            <operation>equals</operation>
+            <value>Completed,Cancel,Complete</value>
+        </filters>
+        <label>My Intro Calls Held</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Scheduled_Intro_Call_Overdue_Tasks</fullName>
+        <columns>TYPE</columns>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>DUE_DATE</columns>
+        <columns>STATUS</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IS_CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>DUE_DATE</field>
+            <operation>lessThan</operation>
+            <value>TODAY</value>
+        </filters>
+        <filters>
+            <field>TYPE</field>
+            <operation>equals</operation>
+            <value>Intro Call</value>
+        </filters>
+        <filters>
+            <field>Is_Created_Same_as_Logged_In_User__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>My Scheduled Intro Call Overdue Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>OpenTasks</fullName>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>DUE_DATE</columns>
+        <columns>STATUS</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>IS_CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>IS_RECURRENCE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>My Open Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>OverdueTasks</fullName>
+        <columns>TYPE</columns>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>DUE_DATE</columns>
+        <columns>STATUS</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>IS_CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>DUE_DATE</field>
+            <operation>lessOrEqual</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>My Due Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>Phone_Numbers_to_Refine</fullName>
+        <columns>TYPE</columns>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>DUE_DATE</columns>
+        <columns>CALLDISPOSITION</columns>
+        <columns>Call_Disposition__c</columns>
+        <columns>SDR_Notes__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>CORE.USERS.LAST_NAME</columns>
+        <columns>PRIORITY</columns>
+        <columns>STATUS</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CALLDISPOSITION</field>
+            <operation>equals</operation>
+            <value>Bad Phone</value>
+        </filters>
+        <label># Bad Phones to Enrich</label>
+        <sharedTo>
+            <group>Market_Analysts_Group</group>
+            <group>Queue_Manager</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>RecurringTasks</fullName>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>DUE_DATE</columns>
+        <columns>STATUS</columns>
+        <columns>PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>IS_RECURRENCE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>My Recurring Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>TodaysTasks</fullName>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>DUE_DATE</columns>
+        <columns>STATUS</columns>
+        <columns>PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>IS_CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>IS_RECURRENCE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>DUE_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>My Today&apos;s Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>UnscheduledTasks</fullName>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>DUE_DATE</columns>
+        <columns>STATUS</columns>
+        <columns>PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>IS_CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>IS_RECURRENCE</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>DUE_DATE</field>
+            <operation>equals</operation>
+        </filters>
+        <label>My Unscheduled Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>Upcoming_Tasks</fullName>
+        <columns>TYPE</columns>
+        <columns>SUBJECT</columns>
+        <columns>WHO_NAME</columns>
+        <columns>WHAT_NAME</columns>
+        <columns>DUE_DATE</columns>
+        <columns>STATUS</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>IS_CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>DUE_DATE</field>
+            <operation>greaterOrEqual</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>My Upcoming Tasks</label>
+    </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Demo</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Task_Layout</compactLayoutAssignment>
+        <description>To Schedule and Complete Demo</description>
+        <label>Demo</label>
+        <picklistValues>
+            <picklist>Call_Status__c</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested Callback later</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Gift_Type__c</picklist>
+            <values>
+                <fullName>Physical Gift</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eGift</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Meeting_Type__c</picklist>
+            <values>
+                <fullName>Customer Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution Architect Meeting</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Next_Step__c</picklist>
+            <values>
+                <fullName>AE_to_Reschedule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Back to the Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opportunity Created</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partnership In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self Gen Prospect - Rep to Nurture</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Outreach_Task_Type__c</picklist>
+            <values>
+                <fullName>LinkedIn%3A Interact with Post</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Send Connection Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Send Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A View a Profile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product_Type__c</picklist>
+            <values>
+                <fullName>ARM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARM and Vault</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CodeScan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vault</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ramble__Ramble_Chat_Type__c</picklist>
+            <values>
+                <fullName>Answered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Missed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason__c</picklist>
+            <values>
+                <fullName>Needs Nurturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No BANT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Product Fit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reschedule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scheduled</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Demo Schedueld</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Demo</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Discovery_Call</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Task_Layout</compactLayoutAssignment>
+        <description>To Schedule and Complete Intro or Demo Follow-up Call</description>
+        <label>Intro/Demo Follow-up Call</label>
+        <picklistValues>
+            <picklist>Call_Status__c</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested Callback later</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Gift_Type__c</picklist>
+            <values>
+                <fullName>Physical Gift</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eGift</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Meeting_Type__c</picklist>
+            <values>
+                <fullName>Customer Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution Architect Meeting</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Next_Step__c</picklist>
+            <values>
+                <fullName>AE_to_Reschedule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Back to the Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Create Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self Gen Prospect - Rep to Nurture</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Outreach_Task_Type__c</picklist>
+            <values>
+                <fullName>LinkedIn%3A Interact with Post</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Send Connection Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Send Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A View a Profile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product_Type__c</picklist>
+            <values>
+                <fullName>ARM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARM and Vault</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CodeScan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vault</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ramble__Ramble_Chat_Type__c</picklist>
+            <values>
+                <fullName>Answered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Missed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason__c</picklist>
+            <values>
+                <fullName>Needs Nurturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No BANT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Product Fit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reschedule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scheduled</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Demo Call Follow-up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Intro Call Follow-up</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Follow-up</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Gift_Request</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Task_Layout</compactLayoutAssignment>
+        <description>Create and Review Gift Request</description>
+        <label>Gift Request</label>
+        <picklistValues>
+            <picklist>Call_Status__c</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested Callback later</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Gift_Type__c</picklist>
+            <values>
+                <fullName>Physical Gift</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eGift</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Meeting_Type__c</picklist>
+            <values>
+                <fullName>Customer Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution Architect Meeting</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Next_Step__c</picklist>
+            <values>
+                <fullName>AE_to_Reschedule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Back to the Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Create Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opportunity Created</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partnership In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Playground</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self Gen Prospect - Rep to Nurture</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Outreach_Task_Type__c</picklist>
+            <values>
+                <fullName>LinkedIn%3A Interact with Post</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Send Connection Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Send Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A View a Profile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product_Type__c</picklist>
+            <values>
+                <fullName>ARM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARM and Vault</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vault</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ramble__Ramble_Chat_Type__c</picklist>
+            <values>
+                <fullName>Answered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Missed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason__c</picklist>
+            <values>
+                <fullName>Needs Nurturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No BANT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Product Fit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reschedule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Gift</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Intro_Call</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Task_Layout</compactLayoutAssignment>
+        <description>Intro Calls are similar to Discovery Calls but earlier in the cycle</description>
+        <label>Intro Call</label>
+        <picklistValues>
+            <picklist>Call_Status__c</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested Callback later</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Gift_Type__c</picklist>
+            <values>
+                <fullName>Physical Gift</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eGift</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Meeting_Type__c</picklist>
+            <values>
+                <fullName>Customer Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution Architect Meeting</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Next_Step__c</picklist>
+            <values>
+                <fullName>Back to the Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Create Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discovery Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self Gen Prospect - Rep to Nurture</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Outreach_Task_Type__c</picklist>
+            <values>
+                <fullName>LinkedIn%3A Interact with Post</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Send Connection Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Send Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A View a Profile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product_Type__c</picklist>
+            <values>
+                <fullName>ARM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARM and Vault</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CodeScan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vault</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ramble__Ramble_Chat_Type__c</picklist>
+            <values>
+                <fullName>Answered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Missed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason__c</picklist>
+            <values>
+                <fullName>Needs Nurturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No BANT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Product Fit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reschedule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scheduled</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Intro Call Scheduled</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Intro Call</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LID__InMail</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Task_Layout</compactLayoutAssignment>
+        <description>Record type for LinkedIn inMails (sent to non-connections)</description>
+        <label>LinkedIn InMail</label>
+        <picklistValues>
+            <picklist>Call_Status__c</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested Callback later</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Gift_Type__c</picklist>
+            <values>
+                <fullName>Physical Gift</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eGift</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Meeting_Type__c</picklist>
+            <values>
+                <fullName>Customer Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution Architect Meeting</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Next_Step__c</picklist>
+            <values>
+                <fullName>AE_to_Reschedule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Back to the Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Create Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Outreach_Task_Type__c</picklist>
+            <values>
+                <fullName>LinkedIn%3A Interact with Post</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Send Connection Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Send Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A View a Profile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product_Type__c</picklist>
+            <values>
+                <fullName>ARM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARM and Vault</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vault</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ramble__Ramble_Chat_Type__c</picklist>
+            <values>
+                <fullName>Answered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Missed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason__c</picklist>
+            <values>
+                <fullName>Needs Nurturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No BANT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Product Fit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reschedule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Waiting on someone else</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>LinkedIn InMail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Quote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>LinkedIn InMail Sent</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LID__LinkedIn_Call</fullName>
+        <active>false</active>
+        <compactLayoutAssignment>Task_Layout</compactLayoutAssignment>
+        <description>Record type for calls from the LinkedIn Sales Navigator mobile app</description>
+        <label>LinkedIn Call</label>
+        <picklistValues>
+            <picklist>Call_Status__c</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call Connected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call Left No Voice Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call Left Voice Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested Callback later</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Gift_Type__c</picklist>
+            <values>
+                <fullName>Physical Gift</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eGift</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Meeting_Type__c</picklist>
+            <values>
+                <fullName>Customer Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution Architect Meeting</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Next_Step__c</picklist>
+            <values>
+                <fullName>AE_to_Reschedule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Back to the Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Create Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Outreach_Task_Type__c</picklist>
+            <values>
+                <fullName>LinkedIn%3A Interact with Post</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Send Connection Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Send Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A View a Profile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product_Type__c</picklist>
+            <values>
+                <fullName>ARM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARM and Vault</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vault</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ramble__Ramble_Chat_Type__c</picklist>
+            <values>
+                <fullName>Answered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Missed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason__c</picklist>
+            <values>
+                <fullName>Needs Nurturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No BANT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Product Fit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reschedule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Waiting on someone else</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Quote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LID__Message</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Task_Layout</compactLayoutAssignment>
+        <description>Record type for LinkedIn messages (sent to connections)</description>
+        <label>LinkedIn Message</label>
+        <picklistValues>
+            <picklist>Call_Status__c</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested Callback later</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Gift_Type__c</picklist>
+            <values>
+                <fullName>Physical Gift</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eGift</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Meeting_Type__c</picklist>
+            <values>
+                <fullName>Customer Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution Architect Meeting</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Next_Step__c</picklist>
+            <values>
+                <fullName>AE_to_Reschedule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Back to the Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Create Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Outreach_Task_Type__c</picklist>
+            <values>
+                <fullName>LinkedIn%3A Interact with Post</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Send Connection Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Send Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A View a Profile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product_Type__c</picklist>
+            <values>
+                <fullName>ARM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARM and Vault</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vault</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ramble__Ramble_Chat_Type__c</picklist>
+            <values>
+                <fullName>Answered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Missed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason__c</picklist>
+            <values>
+                <fullName>Needs Nurturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No BANT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Product Fit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reschedule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Waiting on someone else</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>LinkedIn Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Quote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>LinkedIn Message</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LID__PointDrive_Presentation_Created</fullName>
+        <active>false</active>
+        <compactLayoutAssignment>Task_Layout</compactLayoutAssignment>
+        <description>Record type for PointDrives created</description>
+        <label>PointDrive Created</label>
+        <picklistValues>
+            <picklist>Call_Status__c</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested Callback later</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Gift_Type__c</picklist>
+            <values>
+                <fullName>Physical Gift</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eGift</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Meeting_Type__c</picklist>
+            <values>
+                <fullName>Customer Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution Architect Meeting</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Next_Step__c</picklist>
+            <values>
+                <fullName>AE_to_Reschedule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Back to the Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Create Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Outreach_Task_Type__c</picklist>
+            <values>
+                <fullName>LinkedIn%3A Interact with Post</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Send Connection Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Send Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A View a Profile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product_Type__c</picklist>
+            <values>
+                <fullName>ARM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARM and Vault</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vault</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ramble__Ramble_Chat_Type__c</picklist>
+            <values>
+                <fullName>Answered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Missed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason__c</picklist>
+            <values>
+                <fullName>Needs Nurturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No BANT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Product Fit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reschedule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Waiting on someone else</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Quote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LID__PointDrive_Presentation_Viewed</fullName>
+        <active>false</active>
+        <compactLayoutAssignment>Task_Layout</compactLayoutAssignment>
+        <description>Record type for PointDrives viewed</description>
+        <label>PointDrive Viewed</label>
+        <picklistValues>
+            <picklist>Call_Status__c</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested Callback later</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Gift_Type__c</picklist>
+            <values>
+                <fullName>Physical Gift</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eGift</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Meeting_Type__c</picklist>
+            <values>
+                <fullName>Customer Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution Architect Meeting</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Next_Step__c</picklist>
+            <values>
+                <fullName>AE_to_Reschedule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Back to the Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Create Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Outreach_Task_Type__c</picklist>
+            <values>
+                <fullName>LinkedIn%3A Interact with Post</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Send Connection Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Send Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A View a Profile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product_Type__c</picklist>
+            <values>
+                <fullName>ARM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARM and Vault</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vault</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ramble__Ramble_Chat_Type__c</picklist>
+            <values>
+                <fullName>Answered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Missed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason__c</picklist>
+            <values>
+                <fullName>Needs Nurturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No BANT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Product Fit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reschedule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Waiting on someone else</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Quote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Task</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Task_Layout</compactLayoutAssignment>
+        <description>To Create and Complete General Task</description>
+        <label>Task</label>
+        <picklistValues>
+            <picklist>Call_Status__c</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call Connected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call Left No Voice Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call Left Voice Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested Callback later</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong Number</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Gift_Type__c</picklist>
+            <values>
+                <fullName>Physical Gift</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eGift</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Meeting_Type__c</picklist>
+            <values>
+                <fullName>Customer Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solution Architect Meeting</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Next_Step__c</picklist>
+            <values>
+                <fullName>AE_to_Reschedule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Back to the Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Create Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opportunity Created</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>POC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partnership In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Playground</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self Gen Prospect - Rep to Nurture</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Outreach_Task_Type__c</picklist>
+            <values>
+                <fullName>LinkedIn%3A Interact with Post</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Send Connection Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A Send Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn%3A View a Profile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product_Type__c</picklist>
+            <values>
+                <fullName>ARM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ARM and Vault</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vault</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ramble__Ramble_Chat_Type__c</picklist>
+            <values>
+                <fullName>Answered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Missed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason__c</picklist>
+            <values>
+                <fullName>Needs Nurturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No BANT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Product Fit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reschedule</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Waiting on someone else</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral from Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Quote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Follow-up</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LinkedIn Message</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Procurement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral from Partner</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>LID__cannot_edit_Priority_on_Linkedin_Tasks</fullName>
+        <active>false</active>
+        <description>Validation Rule not in use</description>
+        <errorConditionFormula>false</errorConditionFormula>
+        <errorDisplayField>Priority</errorDisplayField>
+        <errorMessage>You cannot edit the Priority field on LInkedin Tasks</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>LID__cannot_edit_assigned_on_Linkedin_Tasks</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR(RecordType.Name = &quot;inMail&quot;, RecordType.Name = &quot;Messages&quot;, RecordType.Name = &quot;PointDrive Presentation Created&quot;, RecordType.Name = &quot;PointDrive Presentation Viewed&quot;, RecordType.Name = &quot;LinkedIn_Call&quot;)
+&amp;&amp; (ISCHANGED( OwnerId ))</errorConditionFormula>
+        <errorDisplayField>Status</errorDisplayField>
+        <errorMessage>You cannot edit the Assigned To field on LinkedIn Tasks</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>LID__cannot_edit_status_on_Linkedin_Tasks</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR(RecordType.Name = &quot;inMail&quot;, RecordType.Name = &quot;Messages&quot;, RecordType.Name = &quot;PointDrive Presentation Created&quot;, RecordType.Name = &quot;PointDrive Presentation Viewed&quot;, RecordType.Name = &quot;LinkedIn_Call&quot;)
+&amp;&amp; (ISCHANGED( Status ))</errorConditionFormula>
+        <errorDisplayField>OwnerId</errorDisplayField>
+        <errorMessage>You cannot edit the Assigned To field on LinkedIn Tasks</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Make_Related_To_required_for_Contacts</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(  
+OR(
+TEXT( Type ) = &quot;Intro Call&quot;,
+TEXT( Type ) = &quot;Discovery Call&quot;,
+TEXT( Type ) = &quot;Demo&quot;),
+ISBLANK(WhatId),BEGINS( WhoId , &quot;003&quot;))</errorConditionFormula>
+        <errorDisplayField>WhatId</errorDisplayField>
+        <errorMessage>Please enter &apos;Related To&apos; in order to save the record.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Manadate_PhysicalGift_Details</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(  ISPICKVAL( Gift_Type__c , &apos;Physical Gift&apos;) ,
+OR
+(
+ISBLANK( Contact_Mailing_Address__c ) ,
+ISBLANK( Gift_URL__c )
+)
+)</errorConditionFormula>
+        <errorDisplayField>Contact_Mailing_Address__c</errorDisplayField>
+        <errorMessage>&apos;Contact Mailing Address&apos;, and &apos;Gift URL&apos; are mandatory when Gift Type is &apos;Physical Gift&apos;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Mandate_Comments</fullName>
+        <active>true</active>
+        <description>Mandate Comments for INtro Call/Discovery Call/Demo Call.</description>
+        <errorConditionFormula>AND ( Share_Meeting_Notes__c = True, LEN( Description ) = 0)</errorConditionFormula>
+        <errorDisplayField>Description</errorDisplayField>
+        <errorMessage>Please enter Comments to share meeting notes.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Mandate_Date_DC_Held</fullName>
+        <active>false</active>
+        <description>&apos;Date DC Held&apos;  is required when Task Status is &apos;Complete&apos;</description>
+        <errorConditionFormula>AND(
+ISPICKVAL( Status , &apos;Complete&apos;),  
+(ISBLANK( Date_DC_Held__c ))
+)</errorConditionFormula>
+        <errorMessage>Please enter &apos;Date DC Held&apos;  to save the record.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Mandate_Date_Demo_Held</fullName>
+        <active>false</active>
+        <description>&apos;Date Demo Held&apos; is required when Task Status is &apos;Complete&apos;</description>
+        <errorConditionFormula>AND( ISPICKVAL( Type , &apos;Demo&apos;), 
+ISPICKVAL( Status , &apos;Complete&apos;),  
+ISBLANK(TEXT( Date_Demo_Held__c ))  
+)</errorConditionFormula>
+        <errorMessage>Please enter &apos;Date Demo Held&apos; to save the record.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Mandate_Meeting_Type</fullName>
+        <active>true</active>
+        <errorConditionFormula>TEXT(Type) = &quot;Meeting&quot; &amp;&amp;   ISBLANK(TEXT( Meeting_Type__c))</errorConditionFormula>
+        <errorDisplayField>Meeting_Type__c</errorDisplayField>
+        <errorMessage>Meeting Type is required when Type is &quot;Meeting&quot;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Mandate_Next_Step</fullName>
+        <active>true</active>
+        <description>Next Step is required when the Status is Completed or Canceled.</description>
+        <errorConditionFormula>OR(
+AND(
+ISPICKVAL(Status, &apos;Cancel&apos;),    ISBLANK(TEXT(Next_Step__c ) )
+),
+AND(
+ISPICKVAL(Status, &apos;Complete&apos;),    ISBLANK(TEXT(Next_Step__c ) )
+)
+)</errorConditionFormula>
+        <errorMessage>Please enter &apos;Next Step&apos; to save the record.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Mandate_Other_Reason</fullName>
+        <active>true</active>
+        <description>&apos;Other Reason&apos; is required when the &apos;Back to the Marketing&apos;. is &apos;Other&apos;</description>
+        <errorConditionFormula>AND(ISPICKVAL( Reason__c, &apos;Other&apos; ),  ISBLANK(Other_Reason__c))</errorConditionFormula>
+        <errorMessage>Please enter &apos;Other Reason&apos; to save the record.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Mandate_Reason</fullName>
+        <active>true</active>
+        <description>Reason is required when the &apos;Next Step&apos; is &apos;Back to the Marketing&apos;.</description>
+        <errorConditionFormula>AND(ISPICKVAL(  Next_Step__c , &apos;Back to the Marketing&apos;) ,  ISBLANK(TEXT( Reason__c ))
+)</errorConditionFormula>
+        <errorMessage>Please enter &apos;Reason&apos; to save the record.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Meeting_Notes</fullName>
+        <active>true</active>
+        <errorConditionFormula>TEXT(Type) = &quot;Meeting&quot;   &amp;&amp;   (LEN( Meeting_Recap__c ) &lt;= 0) &amp;&amp;  ((TEXT( Status ) = &quot;Complete&quot; )  ||   (TEXT( Status ) = &quot;Completed&quot; ))</errorConditionFormula>
+        <errorDisplayField>Meeting_Recap__c</errorDisplayField>
+        <errorMessage>Please enter &quot;Meeting Recap&quot; in order to complete the Task.</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>activities__CloseTasks</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Close Tasks</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/39.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/39.0/apex.js&quot;)}
+var left = (screen.width/2)-(320/2);
+var top = (screen.height/2)-(200/2);
+var records = {!GETRECORDIDS($ObjectType.Task)};
+var strIDs=&apos;&apos;;
+if (records[0] == null)
+{
+alert(&apos;Please select atleast one record&apos;);
+}
+else
+{
+for (var n=0; n&lt;records.length; n++)
+{
+if(strIDs == &apos;&apos;)
+strIDs = records[n];
+else
+strIDs = strIDs + &quot;,&quot; + records[n];
+}
+window.location.href = &apos;/apex/activities__CloseTasks?strIDs=&apos;+strIDs+&apos;&amp;retURL=&apos;+ window.location.href;
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>activities__Mass_Update</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Mass Update Tasks</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/39.0/connection.js&quot;)}
+var records =  {!GETRECORDIDS( $ObjectType.Task)};
+var returnURL = window.location.href;
+if(records != null &amp;&amp; records != &apos;&apos;){
+     mywin = window.open(&apos;/apex/activities__UpdateTasks?Ids=&apos;+records+&apos;&amp;retURL=&apos;+returnURL , &apos;_top&apos;,
+                                             &apos;height=400,width=600,status=yes,toolbar=no,menubar=no,location=no,center=yes,resizable=no&apos;);
+     mywin.focus();
+}else{
+    alert(&apos;Please select atleast one task.&apos;);
+}</url>
+    </webLinks>
+</CustomObject>

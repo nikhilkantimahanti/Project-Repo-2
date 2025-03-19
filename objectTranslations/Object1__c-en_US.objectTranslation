@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Object</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Objects</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Field__c</name>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hindhi</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maths</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telugu</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label></label>
+        <name>Record</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DependencyAnalyzer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DependencyAnalyzers</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>ARM_UAT_25_1__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

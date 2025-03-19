@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Engineering</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Issue_Type__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Module__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Priority__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Sprint_Name__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Story_Points__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

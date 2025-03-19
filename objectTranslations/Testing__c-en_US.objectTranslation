@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Testing</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Testings</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Test_version__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Testing_Type__c</name>
+        <picklistValues>
+            <masterLabel>Acceptance testing</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Functional Testing</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integration Testing</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regression Testing</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit Testing</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

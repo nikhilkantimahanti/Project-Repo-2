@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Fruit</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Fruits</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Seasonal__c</name>
+        <picklistValues>
+            <masterLabel>Apple</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grapes</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guava</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mango</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

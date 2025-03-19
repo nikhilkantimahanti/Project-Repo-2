@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Subscription obj</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Subscription objs</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Billing_Frquency__c</name>
+        <picklistValues>
+            <masterLabel>12 months</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>36 months</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>48 months</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Next_Billing_date__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Sub_Plan__c</name>
+        <picklistValues>
+            <masterLabel>Basic</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label></label>
+        <name>New_users</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Old_users</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Sub_valid_rule</name>
+    </validationRules>
+</CustomObjectTranslation>
