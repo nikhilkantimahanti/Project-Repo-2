@@ -249,6 +249,7 @@
         <members>OpportunityHelper</members>
         <members>OpportunityHelperTest</members>
         <members>OpportunityManager</members>
+        <members>OpportunityManagerNik</members>
         <members>OpportunityManagerTest</members>
         <members>OpportunityTriggerHandler</members>
         <members>OpportunityTriggerHandlerTest</members>
