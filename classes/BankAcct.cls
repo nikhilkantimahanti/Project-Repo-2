@@ -8,6 +8,7 @@ public class BankAcct {
     //Within the method, add the deposit amount to the balance
     //Dummy
     public void makeDeposit (integer deposit) {
+        system.debub('for CI job');
     balance = balance + deposit;
     }
     //Declare a method, named getBalance, that returns an integer
