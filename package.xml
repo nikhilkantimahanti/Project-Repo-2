@@ -5025,7 +5025,6 @@
         <members>laptop__c</members>
         <members>realme__c</members>
         <members>school__c</members>
-        <members>snapshot__c</members>
         <members>test__c</members>
         <members>trends__c</members>
         <members>vindyaobj__c</members>
@@ -5920,7 +5919,6 @@
         <members>layer__c-layer Layout</members>
         <members>realme__c-realme Layout</members>
         <members>school__c-school Layout</members>
-        <members>snapshot__c-snapshot Layout</members>
         <members>test__c-test Layout</members>
         <members>testobj1__c-testobj1 Layout</members>
         <members>testobj2__c-testobj2 Layout</members>
