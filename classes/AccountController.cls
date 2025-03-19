@@ -12,6 +12,7 @@ public class AccountController {
     public static void deleteAccountWithoutValidation(String accountId) {
         // Issue: No SOQL injection protection
         Account accToDelete = [SELECT Id FROM Account WHERE Id = :accountId LIMIT 2];
+        system.debug('this is to test from dev 2');
         // Testing merge conflict
         // Issue: No check for null result
         if (accToDelete != null) {
