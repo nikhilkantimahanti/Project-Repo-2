@@ -6506,6 +6506,7 @@
         <members>sfdcInternalInt__sfdc_predictionbuilder</members>
         <members>sfdcInternalInt__sfdc_scrt2</members>
         <members>sfdc_aiplanner_service_permset</members>
+        <members>test</members>
         <members>test_set</members>
         <members>v1</members>
         <members>vin_2</members>
@@ -6561,6 +6562,7 @@
         <members>Knowledge Hub Profile</members>
         <members>Lekhya</members>
         <members>Lekhya_Custom</members>
+        <members>Leo</members>
         <members>Marketing Manager</members>
         <members>MarketingProfile</members>
         <members>Minimum Access - API Only Integrations</members>
@@ -6611,7 +6613,9 @@
         <members>Yaswanth Custom</members>
         <members>Yeswanth-Profile</members>
         <members>anjali</members>
+        <members>custom-vin</members>
         <members>moni-profile2</members>
+        <members>test profile 2</members>
         <members>v1</members>
         <members>vin-2</members>
         <members>vindhya%27s site Profile</members>
