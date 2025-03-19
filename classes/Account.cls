@@ -18,6 +18,7 @@ public class Account {
     }
     //adding comemnts for testing
     public void setName(String n) {
+        system.debug('this is to test from dev 1');
         this.name = n;
     }
  
