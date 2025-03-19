@@ -85,7 +85,6 @@
         <members>Calculator2</members>
         <members>CalculatorClass_Lekhya</members>
         <members>CalculatorTest</members>
-        <members>CaseHandlerNik</members>
         <members>CaseManager</members>
         <members>CaseManagerTest</members>
         <members>ChangePasswordController</members>
