@@ -9,6 +9,7 @@ public class AuthorHandler {
             System.debug('Author record inserted successfully: ' + newAuthor.Id);
         } catch (Exception e) {
             System.debug('Error inserting Author: ' + e.getMessage());
+            system.debug('check for CI job hook from dev 1');
         }
     }
 }
