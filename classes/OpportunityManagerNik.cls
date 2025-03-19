@@ -8,6 +8,7 @@ public class OpportunityManagerNik {
             CloseDate = Date.today().addMonths(1),
             StageName = 'Prospecting'
         );
+        system.debug('test the statement');
         insert newOpportunity;
         return newOpportunity;
     }
@@ -16,4 +17,5 @@ public class OpportunityManagerNik {
     public List<Opportunity> getOpportunitiesByStage(String stage) {
         return [SELECT Id, Name, Amount, StageName FROM Opportunity WHERE StageName = :stage];
     }
+    
 }
