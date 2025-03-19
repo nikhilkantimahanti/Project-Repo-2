@@ -7,6 +7,7 @@ public Account createAccount(String name)
 //Testing
 Account a01= new Account();
 a01.Name = name;
+system.debug('test CI');
 return a01;
 //Test the VS code IDE with deplying to org and committing
 }
