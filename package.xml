@@ -4214,6 +4214,7 @@
         <members>school__c.School_address__c</members>
         <members>school__c.School_email__c</members>
         <members>school__c.School_phone__c</members>
+        <members>snapshot__c.Price__c</members>
         <members>test__c.apex_test__c</members>
         <members>trends__c.category__c</members>
         <members>vindyaobj__c.City__c</members>
@@ -4646,6 +4647,7 @@
         <members>layer__c</members>
         <members>realme__c</members>
         <members>school__c</members>
+        <members>snapshot__c</members>
         <members>test__c</members>
         <members>testobj1__c</members>
         <members>testobj2__c</members>
@@ -6313,6 +6315,7 @@
         <members>laptop__c.All</members>
         <members>realme__c.All</members>
         <members>school__c.All</members>
+        <members>snapshot__c.All</members>
         <members>test__c.All</members>
         <members>trends__c.All</members>
         <members>vindyaobj__c.All</members>
