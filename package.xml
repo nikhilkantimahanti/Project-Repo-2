@@ -4204,6 +4204,7 @@
         <members>game__c.indoor_games__c</members>
         <members>game__c.players__c</members>
         <members>gift__c.content__c</members>
+        <members>label_object__c.label_object_field__c</members>
         <members>laptop__c.Brand__c</members>
         <members>laptop__c.Operating_system__c</members>
         <members>laptop__c.RAM__c</members>
@@ -4251,7 +4252,6 @@
         <members>NewViewLinkLabel</members>
         <members>Nikhil_label_1</members>
         <members>Nikhil_label_2</members>
-        <members>Nikhil_label_6</members>
         <members>NoResultSummary</members>
         <members>NoResultTitle</members>
         <members>NoViewSelection</members>
@@ -5021,6 +5021,7 @@
         <members>game__c</members>
         <members>gift__c</members>
         <members>invoice__c</members>
+        <members>label_object__c</members>
         <members>laptop__c</members>
         <members>realme__c</members>
         <members>school__c</members>
@@ -5915,6 +5916,7 @@
         <members>game__c-game Layout</members>
         <members>gift__c-gift Layout</members>
         <members>invoice__c-invoice Layout</members>
+        <members>label_object__c-label object Layout</members>
         <members>laptop__c-laptop Layout</members>
         <members>layer__c-layer Layout</members>
         <members>realme__c-realme Layout</members>

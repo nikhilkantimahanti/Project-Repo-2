@@ -15308,6 +15308,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>label_object__c.label_object_field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>laptop__c.Brand__c</field>
         <readable>true</readable>
     </fieldPermissions>
