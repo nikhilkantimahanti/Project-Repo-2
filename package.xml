@@ -4279,7 +4279,6 @@
         <members>Zoho_Tickets_Start_Date</members>
         <members>error_numbers</members>
         <members>nikhil_label_4</members>
-        <members>nikhil_label_5</members>
         <members>testl</members>
         <name>CustomLabel</name>
     </types>
@@ -4642,6 +4641,7 @@
         <members>game__c</members>
         <members>gift__c</members>
         <members>invoice__c</members>
+        <members>label_object__c</members>
         <members>laptop__c</members>
         <members>layer__c</members>
         <members>realme__c</members>
@@ -5020,6 +5020,7 @@
         <members>game__c</members>
         <members>gift__c</members>
         <members>invoice__c</members>
+        <members>label_object__c</members>
         <members>laptop__c</members>
         <members>realme__c</members>
         <members>school__c</members>
@@ -5914,6 +5915,7 @@
         <members>game__c-game Layout</members>
         <members>gift__c-gift Layout</members>
         <members>invoice__c-invoice Layout</members>
+        <members>label_object__c-label object Layout</members>
         <members>laptop__c-laptop Layout</members>
         <members>layer__c-layer Layout</members>
         <members>realme__c-realme Layout</members>
@@ -6307,6 +6309,7 @@
         <members>game__c.my_list_view</members>
         <members>gift__c.All</members>
         <members>invoice__c.All</members>
+        <members>label_object__c.All</members>
         <members>laptop__c.All</members>
         <members>realme__c.All</members>
         <members>school__c.All</members>

@@ -413,13 +413,6 @@
         <value>hello welcome to new custom label</value>
     </labels>
     <labels>
-        <fullName>nikhil_label_5</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>nikhil label 5</shortDescription>
-        <value>this is fifth label</value>
-    </labels>
-    <labels>
         <fullName>testl</fullName>
         <language>en_US</language>
         <protected>false</protected>
