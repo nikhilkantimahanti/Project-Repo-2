@@ -11,6 +11,7 @@ public class Account {
     
     public void setID(String id) {
         this.Id = id; 
+        system.debug('update the class');
     }
     
     public String getName() {
