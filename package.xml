@@ -4643,6 +4643,7 @@
         <members>game__c</members>
         <members>gift__c</members>
         <members>invoice__c</members>
+        <members>label_object__c</members>
         <members>laptop__c</members>
         <members>layer__c</members>
         <members>realme__c</members>
@@ -6310,6 +6311,7 @@
         <members>game__c.my_list_view</members>
         <members>gift__c.All</members>
         <members>invoice__c.All</members>
+        <members>label_object__c.All</members>
         <members>laptop__c.All</members>
         <members>realme__c.All</members>
         <members>school__c.All</members>
