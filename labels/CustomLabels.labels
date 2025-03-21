@@ -420,6 +420,13 @@
         <value>this is fifth label</value>
     </labels>
     <labels>
+        <fullName>nikhil_label_7</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>nikhil label 7</shortDescription>
+        <value>this is seventh label from nikhil</value>
+    </labels>
+    <labels>
         <fullName>testl</fullName>
         <language>en_US</language>
         <protected>false</protected>
