@@ -4647,6 +4647,7 @@
         <members>invoice__c</members>
         <members>laptop__c</members>
         <members>layer__c</members>
+        <members>new_object_5__c</members>
         <members>realme__c</members>
         <members>school__c</members>
         <members>test__c</members>
@@ -5922,6 +5923,7 @@
         <members>label_object__c-label object Layout</members>
         <members>laptop__c-laptop Layout</members>
         <members>layer__c-layer Layout</members>
+        <members>new_object_5__c-new object 5 Layout</members>
         <members>realme__c-realme Layout</members>
         <members>school__c-school Layout</members>
         <members>snapshot__c-snapshot Layout</members>
@@ -6314,6 +6316,7 @@
         <members>gift__c.All</members>
         <members>invoice__c.All</members>
         <members>laptop__c.All</members>
+        <members>new_object_5__c.All</members>
         <members>realme__c.All</members>
         <members>school__c.All</members>
         <members>test__c.All</members>
