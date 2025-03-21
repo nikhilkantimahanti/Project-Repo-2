@@ -7,11 +7,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>new_object_5__c.field1__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>snapshot__c.Price__c</field>
         <readable>true</readable>
     </fieldPermissions>
