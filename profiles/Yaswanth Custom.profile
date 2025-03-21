@@ -15342,6 +15342,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>new_object_5__c.field1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>realme__c.Product__c</field>
         <readable>true</readable>
     </fieldPermissions>

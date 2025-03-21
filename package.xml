@@ -4211,6 +4211,7 @@
         <members>laptop__c.price__c</members>
         <members>laptop__c.screen_size__c</members>
         <members>layer__c.price__c</members>
+        <members>new_object_5__c.field1__c</members>
         <members>realme__c.Product__c</members>
         <members>school__c.School_address__c</members>
         <members>school__c.School_email__c</members>
@@ -5024,6 +5025,7 @@
         <members>invoice__c</members>
         <members>label_object__c</members>
         <members>laptop__c</members>
+        <members>new_object_5__c</members>
         <members>realme__c</members>
         <members>school__c</members>
         <members>snapshot__c</members>
