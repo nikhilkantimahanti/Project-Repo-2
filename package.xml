@@ -418,7 +418,6 @@
         <members>schedZohoDeskDataTest</members>
         <members>scheduleCls_DeleteSDR_Metrics</members>
         <members>scheduleCls_DeleteSDR_Metrics_Test</members>
-        <members>sfTest</members>
         <members>sree</members>
         <members>student</members>
         <members>test_Schedule_ZohoCalloutForTickets</members>
@@ -5424,7 +5423,6 @@
         <members>Update_Task_Type_for_Blank_Task_Type</members>
         <members>Update_Task_Type_for_LinkedIn_Sales_Navigator_Tasks</members>
         <members>Warn_users_for_not_logging_in_80_Days</members>
-        <members>account_contact_opp</members>
         <members>app_codescan_io_Lead_Source_assignment</members>
         <members>avnio__AddLinkToProjectQuestionFeedItem</members>
         <members>avnio__AvnioAutoSynctoLibraryTemplate</members>
