@@ -415,9 +415,9 @@
     <labels>
         <fullName>nikhil_label_10</fullName>
         <language>en_US</language>
-        <protected>false</protected>
+        <protected>true</protected>
         <shortDescription>nikhil label 10</shortDescription>
-        <value>this is tenth label</value>
+        <value>tenth label test</value>
     </labels>
     <labels>
         <fullName>nikhil_label_4</fullName>
