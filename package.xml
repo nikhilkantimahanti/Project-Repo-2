@@ -302,6 +302,7 @@
         <members>SendEmailToGuest</members>
         <members>ShoppingCart</members>
         <members>SimpleAC</members>
+        <members>SimpleApex</members>
         <members>SimpleApexClass</members>
         <members>SimpleMath</members>
         <members>SiteLoginController</members>
@@ -4212,6 +4213,8 @@
         <members>laptop__c.screen_size__c</members>
         <members>layer__c.price__c</members>
         <members>new_object_5__c.field1__c</members>
+        <members>object53__c.Price__c</members>
+        <members>object53__c.color__c</members>
         <members>realme__c.Product__c</members>
         <members>school__c.School_address__c</members>
         <members>school__c.School_email__c</members>
