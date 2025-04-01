@@ -266,6 +266,7 @@
         <members>ProductsPerAccountFactory</members>
         <members>ProductsPerAccountFactoryTest</members>
         <members>ProjectMngtHelper</members>
+        <members>QuantumLeap</members>
         <members>QuoteLineItemCtrl</members>
         <members>QuoteLineItemTriggerHandler</members>
         <members>QuoteLineItemTriggerHandlerTest</members>
@@ -4215,6 +4216,8 @@
         <members>new_object_5__c.field1__c</members>
         <members>object53__c.Price__c</members>
         <members>object53__c.color__c</members>
+        <members>object54__c.Price__c</members>
+        <members>object54__c.brand__c</members>
         <members>realme__c.Product__c</members>
         <members>school__c.School_address__c</members>
         <members>school__c.School_email__c</members>
@@ -4657,6 +4660,7 @@
         <members>layer__c</members>
         <members>new_object_5__c</members>
         <members>object53__c</members>
+        <members>object54__c</members>
         <members>object_54__c</members>
         <members>realme__c</members>
         <members>school__c</members>
@@ -5037,6 +5041,7 @@
         <members>label_object__c</members>
         <members>laptop__c</members>
         <members>new_object_5__c</members>
+        <members>object54__c</members>
         <members>realme__c</members>
         <members>school__c</members>
         <members>snapshot__c</members>
@@ -6329,6 +6334,7 @@
         <members>laptop__c.All</members>
         <members>new_object_5__c.All</members>
         <members>object53__c.All</members>
+        <members>object54__c.All</members>
         <members>realme__c.All</members>
         <members>school__c.All</members>
         <members>test__c.All</members>
