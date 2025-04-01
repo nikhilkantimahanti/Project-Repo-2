@@ -399,6 +399,13 @@
         <value>2020-04-01T00:00:00.000Z</value>
     </labels>
     <labels>
+        <fullName>commit_check_label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>commit check label</shortDescription>
+        <value>this label is to check the commit made</value>
+    </labels>
+    <labels>
         <fullName>error_numbers</fullName>
         <language>en_US</language>
         <protected>false</protected>
