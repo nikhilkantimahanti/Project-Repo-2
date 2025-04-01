@@ -4283,8 +4283,10 @@
         <members>error_numbers</members>
         <members>latest_label</members>
         <members>nikhil_label_10</members>
+        <members>nikhil_label_20</members>
         <members>nikhil_label_4</members>
         <members>nikhil_label_5</members>
+        <members>nikhil_label_51</members>
         <members>nikhil_label_7</members>
         <members>testl</members>
         <name>CustomLabel</name>
@@ -4642,6 +4644,7 @@
         <members>Zoho_Ticket__c</members>
         <members>anjalidemo__c</members>
         <members>arintern__c</members>
+        <members>citest__c</members>
         <members>clothingbrand__c</members>
         <members>extra_curricular_activity__c</members>
         <members>film__c</members>
@@ -6311,6 +6314,7 @@
         <members>Zoho_Ticket__c.Created_this_month</members>
         <members>arintern__c.ARinterns</members>
         <members>arintern__c.All</members>
+        <members>citest__c.All</members>
         <members>clothingbrand__c.All</members>
         <members>extra_curricular_activity__c.All</members>
         <members>film__c.All</members>
