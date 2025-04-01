@@ -4286,6 +4286,7 @@
         <members>nikhil_label_20</members>
         <members>nikhil_label_4</members>
         <members>nikhil_label_5</members>
+        <members>nikhil_label_54</members>
         <members>nikhil_label_7</members>
         <members>testl</members>
         <name>CustomLabel</name>
@@ -4654,6 +4655,7 @@
         <members>layer__c</members>
         <members>new_object_5__c</members>
         <members>object53__c</members>
+        <members>object_54__c</members>
         <members>realme__c</members>
         <members>school__c</members>
         <members>test__c</members>
