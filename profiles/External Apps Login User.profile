@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>AccountAnalyzer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ContactHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SimpleContactHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <custom>false</custom>
+    <layoutAssignments>
+        <layout>DynamicDataCapture-Dynamic Data Capture Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FldSvcObjChg-Field Service Object Change Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FldSvcObjChgDtl-Field Service Object Change Detail Layout</layout>
+    </layoutAssignments>
+    <userLicense>External Apps Login</userLicense>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EnableNotifications</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SelectFilesFromSalesforce</name>
+    </userPermissions>
+</Profile>

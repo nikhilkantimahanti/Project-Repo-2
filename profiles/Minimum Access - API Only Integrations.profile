@@ -1323,6 +1323,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>SimpleContactHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>SimpleMath</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -15520,6 +15524,9 @@
         <layout>Dependency_Analyzer_Test__c-Dependency Analyzer Test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>DynamicDataCapture-Dynamic Data Capture Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ENV_Migration__c-ENV Migration Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -15556,6 +15563,12 @@
     <layoutAssignments>
         <layout>Export__c-Export Layout</layout>
         <recordType>Export__c.International</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FldSvcObjChg-Field Service Object Change Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FldSvcObjChgDtl-Field Service Object Change Detail Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>FlowRecord-Flow Layout</layout>

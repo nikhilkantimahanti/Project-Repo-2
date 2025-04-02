@@ -208,7 +208,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>AccountAnalyzer</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>AccountContactManager</apexClass>
@@ -1320,6 +1320,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>SimpleApexClass</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SimpleContactHandler</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -15747,6 +15751,9 @@
         <layout>DuplicateRecordSet-Duplicate Record Set Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>DynamicDataCapture-Dynamic Data Capture Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ENV_Migration__c-ENV Migration Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -15807,6 +15814,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>FeedItem-Feed Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FldSvcObjChg-Field Service Object Change Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FldSvcObjChgDtl-Field Service Object Change Detail Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>FlowInterview-Flow Interview Layout</layout>
