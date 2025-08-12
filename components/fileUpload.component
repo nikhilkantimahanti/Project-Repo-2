@@ -1,4 +1,0 @@
-<apex:component >
-   <apex:attribute name="file" type="Attachment" description="file variable"/> 
-   <apex:inputfile value="{!file.body}" styleClass="slds-file-selector__input slds-assistive-text" filename="{!file.name}" />
-</apex:component>

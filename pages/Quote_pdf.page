@@ -1,3 +1,0 @@
-<apex:page standardController="Quote" standardStylesheets="false" sidebar="false"  >
-    <c:Quote ></c:Quote>
-</apex:page>

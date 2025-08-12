@@ -1,2 +1,0 @@
-<apex:page standardController="Opportunity" extensions="opportnityRedirect" tabStyle="Case" showheader="true" action="{!redirect}" >
-</apex:page>
