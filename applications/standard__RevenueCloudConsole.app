@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Subscription Management</label>
+    <navType>Console</navType>
+    <tabs>standard-Product2</tabs>
+    <tabs>standard-Pricebook2</tabs>
+    <tabs>Project_Budget__c</tabs>
+    <tabs>CaseEscalation__c</tabs>
+    <tabs>uat_vault__c</tabs>
+    <tabs>Book__c</tabs>
+    <tabs>Borrower__c</tabs>
+    <tabs>New_project__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>RevenueCloudConsole_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>Book__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Borrower__c</tab>
+        </mappings>
+        <mappings>
+            <tab>CaseEscalation__c</tab>
+        </mappings>
+        <mappings>
+            <tab>New_project__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Project_Budget__c</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Pricebook2</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Product2</tab>
+        </mappings>
+        <mappings>
+            <tab>uat_vault__c</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>

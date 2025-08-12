@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__AdjustedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Adjusted Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__BenefitName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Benefit Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClaimCoverageId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Claim Coverage</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClaimItemId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Claim Item</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClaimParticipantRecipientId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Claim Participant Recipient</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClaimPaymentDetailStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Claim Payment Detail Status</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClaimPaymentDetailType__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Claim Payment Detail Type</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ClaimedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Claimed Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Claim Payment Detail Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Name__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1723128254495_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ClaimPaymentDetail_ClaimCoverageId_m_rel</label>
+        <referenceTo>ssot__ClaimCoverage__dlm</referenceTo>
+        <relationshipLabel>ClaimPaymentDetail_ClaimCoverageId_m_rel</relationshipLabel>
+        <relationshipName>rel_1723128254495_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1723128259907_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ClaimPaymentDetail_ClaimItemId_map_C_rel</label>
+        <referenceTo>ssot__ClaimItem__dlm</referenceTo>
+        <relationshipLabel>ClaimPaymentDetail_ClaimItemId_map_C_rel</relationshipLabel>
+        <relationshipName>rel_1723128259907_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1723128319446_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ClaimPaymentDetail_ClaimParticipantR_rel</label>
+        <referenceTo>ssot__ClaimParticipant__dlm</referenceTo>
+        <relationshipLabel>ClaimPaymentDetail_ClaimParticipantR_rel</relationshipLabel>
+        <relationshipName>rel_1723128319446_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

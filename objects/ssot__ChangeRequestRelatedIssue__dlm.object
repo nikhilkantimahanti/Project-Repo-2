@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ssot__ChangeRequestId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Change Request</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__ChangeRequestRelatedIssueNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Change Request Related Issue Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__DataSourceObjectId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__Id__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Change Request Related Issue Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__InternalOrganizationId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RelatedIssueId__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Related Issue</label>
+        <length>15</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RelatedIssueObject__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Related Issue Object</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__RelationshipTypeName__c</fullName>
+        <deprecated>false</deprecated>
+        <label>Relationship Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1702009446526_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ChangeRequestRelatedIssue_ChangeRequ_rel</label>
+        <referenceTo>ssot__ChangeRequest__dlm</referenceTo>
+        <relationshipLabel>ChangeRequestRelatedIssue_ChangeRequ_rel</relationshipLabel>
+        <relationshipName>rel_1702009446526_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1702009446807_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ChangeRequestRelatedIssue_RelatedIss_rel</label>
+        <referenceTo>ssot__Problem__dlm</referenceTo>
+        <relationshipLabel>ChangeRequestRelatedIssue_RelatedIss_rel</relationshipLabel>
+        <relationshipName>rel_1702009446807_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1702009448104_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ChangeRequestRelatedIssue_RelatedIss_rel</label>
+        <referenceTo>ssot__Case__dlm</referenceTo>
+        <relationshipLabel>ChangeRequestRelatedIssue_RelatedIss_rel</relationshipLabel>
+        <relationshipName>rel_1702009448104_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ssot__rel_1702009448827_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <label>ChangeRequestRelatedIssue_RelatedIss_rel</label>
+        <referenceTo>ssot__Incident__dlm</referenceTo>
+        <relationshipLabel>ChangeRequestRelatedIssue_RelatedIss_rel</relationshipLabel>
+        <relationshipName>rel_1702009448827_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>
