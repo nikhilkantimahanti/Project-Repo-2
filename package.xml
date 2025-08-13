@@ -3233,6 +3233,8 @@
         <members>WorkTypeGroup.OwnerId</members>
         <members>WorkTypeGroupMember.WorkTypeGroupId</members>
         <members>WorkTypeGroupMember.WorkTypeId</members>
+        <members>customer_details__c.Deal_Price__c</members>
+        <members>customer_details__c.customer_email__c</members>
         <members>ssot__AbnExperimentCohort__dlm.ssot__AbnExperimentId__c</members>
         <members>ssot__AbnExperimentCohort__dlm.ssot__AllocationWeight__c</members>
         <members>ssot__AbnExperimentCohort__dlm.ssot__DataSourceId__c</members>
@@ -21456,6 +21458,7 @@
         <members>WorkType</members>
         <members>WorkTypeGroup</members>
         <members>WorkTypeGroupMember</members>
+        <members>customer_details__c</members>
         <members>label_object__c</members>
         <members>may26__c</members>
         <members>project_report_2__c</members>
@@ -21491,6 +21494,7 @@
         <members>Project_Budget__c</members>
         <members>Top_Accounts_and_Opportunities</members>
         <members>Welcome</members>
+        <members>customer_details__c</members>
         <members>uat_vault__c</members>
         <name>CustomTab</name>
     </types>
@@ -24890,6 +24894,7 @@
         <members>WorkTypeGroup-Work Type Group Layout</members>
         <members>WorkTypeGroupMember-Work Type Group Member Layout</members>
         <members>cdpactvstrgptnr__ActivationPlatformCredential__mdt-cdpactvstrgptnr__ActivationPlatformCredential Layout</members>
+        <members>customer_details__c-customer details Layout</members>
         <members>label_object__c-label object Layout</members>
         <members>may26__c-may26 Layout</members>
         <members>project_report_2__c-project report 2 Layout</members>
@@ -25110,6 +25115,7 @@
         <members>WorkType.My_WorkTypes</members>
         <members>WorkTypeGroup.All_WorkTypeGroups</members>
         <members>WorkTypeGroup.My_WorkTypeGroups</members>
+        <members>customer_details__c.All</members>
         <members>uat_vault__c.All</members>
         <name>ListView</name>
     </types>

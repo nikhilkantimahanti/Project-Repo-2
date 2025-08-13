@@ -4757,6 +4757,16 @@
         <field>cdpactvstrgptnr__ActivationPlatformCredential__mdt.cdpactvstrgptnr__DeveloperAccessToken__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>customer_details__c.Deal_Price__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>customer_details__c.customer_email__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -5227,6 +5237,9 @@
         <layout>cdpactvstrgptnr__ActivationPlatformCredential__mdt-cdpactvstrgptnr__ActivationPlatformCredential Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>customer_details__c-customer details Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>label_object__c-label object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -5459,6 +5472,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Welcome</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>customer_details__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
