@@ -162,15 +162,6 @@
         <trackTrending>false</trackTrending>
         <type>Currency</type>
     </fields>
-    <fields>
-        <fullName>customer_email__c</fullName>
-        <externalId>false</externalId>
-        <label>customer email</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Email</type>
-        <unique>false</unique>
-    </fields>
     <label>customer details</label>
     <listViews>
         <fullName>All</fullName>

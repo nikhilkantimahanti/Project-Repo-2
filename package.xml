@@ -3234,7 +3234,6 @@
         <members>WorkTypeGroupMember.WorkTypeGroupId</members>
         <members>WorkTypeGroupMember.WorkTypeId</members>
         <members>customer_details__c.Deal_Price__c</members>
-        <members>customer_details__c.customer_email__c</members>
         <members>ssot__AbnExperimentCohort__dlm.ssot__AbnExperimentId__c</members>
         <members>ssot__AbnExperimentCohort__dlm.ssot__AllocationWeight__c</members>
         <members>ssot__AbnExperimentCohort__dlm.ssot__DataSourceId__c</members>

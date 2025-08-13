@@ -4762,11 +4762,6 @@
         <field>customer_details__c.Deal_Price__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>customer_details__c.customer_email__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
