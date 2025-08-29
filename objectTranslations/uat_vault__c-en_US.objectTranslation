@@ -4,5 +4,9 @@
         <plural>false</plural>
         <value>uat vault</value>
     </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>uat vault</value>
+    </caseValues>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

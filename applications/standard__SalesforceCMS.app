@@ -17,6 +17,7 @@
     <tabs>Book__c</tabs>
     <tabs>Borrower__c</tabs>
     <tabs>New_project__c</tabs>
+    <tabs>customer_details__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
         <mappings>
@@ -33,6 +34,9 @@
         </mappings>
         <mappings>
             <tab>Project_Budget__c</tab>
+        </mappings>
+        <mappings>
+            <tab>customer_details__c</tab>
         </mappings>
         <mappings>
             <tab>standard-CmsAuthorHome</tab>

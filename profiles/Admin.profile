@@ -349,6 +349,46 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>NKContactEmailFiller</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NKContactEmailFillerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NKOpportunityStageUpdater</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NKOpportunityStageUpdaterTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NK_CaseTaskCreator</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NK_CaseTaskCreator_Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NK_ContactCityUpdater</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NK_ContactCityUpdater_Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NK_LeadCompanyNormalizer</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NK_LeadCompanyNormalizer_Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>NK_OpportunityHelper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -4910,6 +4950,9 @@
         <layout>DandBCompany-D%26B Company Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>DataAction-Data Action Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>DataUseLegalBasis-Data Use Legal Basis Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -7728,6 +7771,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>CanAccessCE</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CanApproveUninstalledApps</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

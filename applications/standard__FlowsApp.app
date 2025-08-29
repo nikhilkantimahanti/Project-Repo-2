@@ -17,6 +17,7 @@
     <tabs>Book__c</tabs>
     <tabs>Borrower__c</tabs>
     <tabs>New_project__c</tabs>
+    <tabs>customer_details__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>FlowsApp_UtilityBar</utilityBar>
 </CustomApplication>

@@ -4,6 +4,10 @@
         <plural>false</plural>
         <value>New project</value>
     </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>New project</value>
+    </caseValues>
     <fields>
         <label></label>
         <name>Brand__c</name>

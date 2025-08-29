@@ -4,5 +4,9 @@
         <plural>false</plural>
         <value>label object</value>
     </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>label object</value>
+    </caseValues>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

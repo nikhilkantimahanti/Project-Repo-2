@@ -79,6 +79,11 @@
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <fields>
+        <fullName>SourceDmoId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
     <listViews>
         <fullName>All_MarketSegmentActivations</fullName>
         <filterScope>Everything</filterScope>

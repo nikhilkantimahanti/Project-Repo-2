@@ -3,6 +3,7 @@
     <enableAIFeedbackWithDC>false</enableAIFeedbackWithDC>
     <enableAITrustInputToxicityDetection>false</enableAITrustInputToxicityDetection>
     <enableAITrustPromptInjectionDetection>false</enableAITrustPromptInjectionDetection>
+    <enableAgentHealthMonitoring>false</enableAgentHealthMonitoring>
     <enablePBHideScopedNotif>false</enablePBHideScopedNotif>
     <enablePBPromptPerformanceMetrics>false</enablePBPromptPerformanceMetrics>
     <enableTrustPIIMasking>true</enableTrustPIIMasking>

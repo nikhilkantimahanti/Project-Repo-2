@@ -4,5 +4,9 @@
         <plural>false</plural>
         <value>project report 2</value>
     </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>project report 2</value>
+    </caseValues>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

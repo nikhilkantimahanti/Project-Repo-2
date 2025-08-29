@@ -4,6 +4,10 @@
         <plural>false</plural>
         <value>Borrower</value>
     </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Borrower</value>
+    </caseValues>
     <fields>
         <label></label>
         <name>Borrow_Date__c</name>

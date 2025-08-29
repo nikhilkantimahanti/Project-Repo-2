@@ -349,6 +349,46 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>NKContactEmailFiller</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NKContactEmailFillerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NKOpportunityStageUpdater</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NKOpportunityStageUpdaterTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NK_CaseTaskCreator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NK_CaseTaskCreator_Test</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NK_ContactCityUpdater</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NK_ContactCityUpdater_Test</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NK_LeadCompanyNormalizer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>NK_LeadCompanyNormalizer_Test</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>NK_OpportunityHelper</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -4848,6 +4888,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Customer-Customer Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DataAction-Data Action Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DataUseLegalBasis-Data Use Legal Basis Layout</layout>

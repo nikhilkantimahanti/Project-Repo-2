@@ -4,5 +4,9 @@
         <plural>false</plural>
         <value>may26</value>
     </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>may26</value>
+    </caseValues>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

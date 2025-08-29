@@ -92,6 +92,13 @@
         <value>this is the latest value for the label</value>
     </labels>
     <labels>
+        <fullName>nik_label_1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>nik label 1</shortDescription>
+        <value>nikhil agent</value>
+    </labels>
+    <labels>
         <fullName>nikhil_label_10</fullName>
         <language>en_US</language>
         <protected>false</protected>
